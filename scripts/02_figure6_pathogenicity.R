@@ -329,11 +329,7 @@ fig6 <- plot_grid(
 # ============================================================
 # 10. Exportar
 # ============================================================
-ggsave("Figura6_ABCD.png", plot = fig6,
-       width = 14, height = 13, units = "in", dpi = 300)
 ggsave("Figura6_ABCD.pdf", plot = fig6,
-       width = 14, height = 13, units = "in")
-ggsave("Figura6_ABCD.svg", plot = fig6,
        width = 14, height = 13, units = "in")
 
 # ============================================================

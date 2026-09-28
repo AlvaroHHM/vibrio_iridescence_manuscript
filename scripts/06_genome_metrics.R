@@ -42,7 +42,6 @@ p1 <- ggplot(genomes, aes(x = Code, y = Genome_size/1e6,
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)))
 
 # Guardar
-ggsave("genome_size_horizontal.png", p1, width = 8, height = 5, dpi = 300)
 ggsave("genome_size_horizontal.pdf", p1, width = 8, height = 5)
 
 # ------------------------------------------------------------
@@ -76,7 +75,6 @@ p2 <- ggplot(metrics_long, aes(x = Code, y = Value, fill = Metric)) +
   guides(fill = guide_legend(nrow = 1))
 
 # Guardar
-ggsave("genome_metrics_vertical.png", p2, width = 10, height = 5.5, dpi = 300)
 ggsave("genome_metrics_vertical.pdf", p2, width = 10, height = 5.5)
 
 cat("✅ Gráficos generados:\n")

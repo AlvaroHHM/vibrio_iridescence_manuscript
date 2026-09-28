@@ -172,11 +172,7 @@ panel_final <- ggdraw() +
 # ------------------------------------------------------------
 # Guardar
 # ------------------------------------------------------------
-ggsave("figure_panel_ABC_final_v3.png", panel_final,
-       width = 14, height = 13, dpi = 300)
 ggsave("figure_panel_ABC_final_v3.pdf", panel_final,
-       width = 14, height = 13)
-ggsave("figure_panel_ABC_final_v3.svg", panel_final,
        width = 14, height = 13)
 
 cat("✅ Panel final v3 guardado en PNG, PDF y SVG\n")
