@@ -50,7 +50,7 @@ The isolate CSA25-control (Microbacterium esteraromaticum) was used exclusively 
 
 ## Strain code mapping
 
-| Code in manuscript | Code in tesis | Species |
+|        Code 1      |    Code 2     | Species |
 |--------------------|---------------|---------|
 | 15_CESAIBC         | VpEMS-15      | Vibrio parahaemolyticus |
 | AT_BV              | Va-H2Oubp     | Vibrio alginolyticus |
@@ -67,8 +67,8 @@ The isolate CSA25-control (Microbacterium esteraromaticum) was used exclusively 
 
 If you use these scripts or data, please cite:
 
-> Mata-Torres FG, et al. (2025). *Phenotypic and Exploratory Genomic Characterization of Metallic Iridescence in Aquaculture-Associated Vibrio Isolates*. [Journal name]. DOI: 10.5281/zenodo.23005624
+> Mata-Torres FG, Millán-Aguiñaga N, Ugalde J, Torres-Beltrán M, Rocha-Mendoza I, Hernández-Montiel AH, Giffard-Mena I. (2025). *Phenotypic and Exploratory Genomic Characterization of Metallic Iridescence in Aquaculture-Associated Vibrio Isolates*. [Journal name]. DOI: 10.5281/zenodo.23005624
 
 ## Contact
 
-For questions about the analyses, contact: [your email]
+For questions about the analyses, contact: Álvaro Hernández-Montiel (a334571@uabc.edu.mx) or the corresponding author, Dr. Ivone Giffard-Mena (igiffard@uabc.edu.mx).
