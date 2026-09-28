@@ -46,7 +46,7 @@ Rscript scripts/02_figure6_pathogenicity.R
 
 ## Notes on CSA25-control
 
-The isolate CSA25-control (Microbacterium esteraromaticum) was used exclusively as a non-iridescent phenotypic control in plate assays and in vivo bioassays. It was not included in the genomic analyses (pangenomics, AMR, antiSMASH, phylogenetic tree) because its genome will be published independently by Dr. Hortencia Silva.
+The isolate CSA25-control (Microbacterium esteraromaticum) was used exclusively as a non-iridescent phenotypic control in plate assays and in vivo bioassays. It was not included in the genomic analyses (pangenomics, AMR, antiSMASH, phylogenetic tree) because its genome will be published independently.
 
 ## Strain code mapping
 
