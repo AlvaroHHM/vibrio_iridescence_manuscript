@@ -6,13 +6,6 @@ This repository contains the R scripts and intermediate data used to generate th
 
 Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., Rocha-Mendoza, I., Hernández-Montiel, A. H., & Giffard-Mena, I.
 
-## Origin of this work
-
-This repository contains the code developed for the manuscript above. The code is a derivative work based on the Master's thesis of Fernando Guadalupe Mata Torres:
-
-> Mata Torres, F. G. (2025). Relación entre la iridiscencia bacteriana y la patogenicidad en cepas aisladas de cultivos acuícolas: un análisis preliminar [Master's thesis]. Universidad Autónoma de Baja California.
-
-The repository was prepared by Álvaro H. Hernández-Montiel, with contributions from the co-authors. Institutional rights belong to the Universidad Autónoma de Baja California (UABC).
 
 ## Requirements
 
