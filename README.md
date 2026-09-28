@@ -1,5 +1,7 @@
 # Phenotypic and Exploratory Genomic Characterization of Metallic Iridescence in Aquaculture-Associated *Vibrio* Isolates
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23005624.svg)](https://doi.org/10.5281/zenodo.23005624)
+
 This repository contains the R scripts and processed data needed to reproduce the statistical analyses and figures presented in the manuscript.
 
 ## Structure
@@ -65,7 +67,7 @@ The isolate CSA25-control (Microbacterium esteraromaticum) was used exclusively 
 
 If you use these scripts or data, please cite:
 
-> Mata-Torres FG, et al. (2025). Phenotypic and Exploratory Genomic Characterization of Metallic Iridescence in Aquaculture-Associated Vibrio Isolates. [Journal name]. DOI: [to be added]
+> Mata-Torres FG, et al. (2025). *Phenotypic and Exploratory Genomic Characterization of Metallic Iridescence in Aquaculture-Associated Vibrio Isolates*. [Journal name]. DOI: 10.5281/zenodo.23005624
 
 ## Contact
 
