@@ -1,0 +1,224 @@
+ID,Proteina - ID,Funciòn,1_MXM,6_VM,11_VM,15_CESAIBC,AT_BV,3_MXM,8_VM,9_VM,10_VM,13_VM,COG_category,Description_eggNOG,GO_terms,KEGG_pathways,PFAMs
+BAC62917,putative membrane transport protein,Transporte de proteìnas en membrana,0,0,0,0,1,0,0,0,0,0,P,COG0477 Permeases of the major facilitator superfamily,-,-,MFS_1
+BAC63005,putative diaminopimelate decarboxylase protein,"producir CO2 y aminoàcido L -lisina precursor importante para la síntesis de la pared celular de peptidoglicano, proteínas constitutivas y factores de virulencia de las bacterias",0,0,0,0,1,0,0,0,0,0,E,"Pyridoxal-dependent decarboxylase, pyridoxal binding domain",-,ko00300; ko01100; ko01110; ko01120; ko01130; ko01230; map00300; map01100; map01110; map01120; map01130; map01230,Orn_Arg_deC_N; Orn_DAP_Arg_deC
+BAC63003,putative transport protein,Transporte de proteìnas en membrana,0,0,0,0,1,0,0,0,0,0,EGP,Major Facilitator Superfamily,-,-,MFS_1; Sugar_tr
+BAC63001,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,S,ATP-grasp domain,-,-,-
+BAC96128,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,P,Sugar (and other) transporter,-,-,MFS_1
+BAC62026,putative arylsulfatase protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,P,Arylsulfatase,-,ko00140; ko00600; map00140; map00600,Sulfatase; Sulfatase_C
+BAC96129,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,E,Belongs to the sodium solute symporter (SSF) (TC 2.A.21) family,-,-,SSF
+BAC58580,"putative thiamine ABC transporter, permease protein",transporte de formas raras de azúcares furanosa y uniòn a sustrato reconoce específicamente el tripéptido de mureína derivado de la pared celular bacteriana,0,0,0,0,1,0,0,0,0,0,P,"COG1178 ABC-type Fe3 transport system, permease component",-,ko02010; map02010,BPD_transp_1
+BAC63092,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,L,"polymerase, most proteins contain PALM domain, HD hydrolase domain and Zn-ribbon domain",-,-,FapA
+BAC60639,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,S,Domain of unknown function (DUF3413),-,-,DUF3413; Sulfatase
+BAC61567,"putative ABC transporter, ATP-binding protein","virulencia y patogénesis de varias bacterias patógenas a través de la importación de moléculas esenciales, como iones metálicos, aminoácidos, péptidos, vitaminas y osmoprotectores, así como la exportación de determinantes virulentos involucrados en Biosíntesis de glicoconjugados y secreción tipo I",0,0,0,0,1,0,0,0,0,0,V,"Part of the tripartite efflux system MacAB-TolC. MacB is a non-canonical ABC transporter that contains transmembrane domains (TMD), which form a pore in the inner membrane, and an ATP-binding domain (NBD), which is responsible for energy generation. Confers resistance against macrolides",-,ko02010; map02010,ABC_tran; FtsX; MacB_PCD
+BAC62959,alpha-amylase,Funciòn metabolica hidrólisis del almidón y de otras moléculas relacionadas,0,0,0,0,1,0,0,0,0,0,G,alpha-amylase,-,ko00500; ko01100; ko04973; map00500; map01100; map04973,Alpha-amylase
+BAC60277,"putative tetrathionate reductase, subunit A","respiración anaeróbica, homologo del arseniato reducatasa",0,0,0,0,1,0,0,0,0,0,C,Belongs to the prokaryotic molybdopterin-containing oxidoreductase family,-,ko00920; ko01120; ko02020; map00920; map01120; map02020,Molybdopterin; Molydop_binding
+BAC96127,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,S,SnoaL-like domain,-,-,SnoaL_2
+BAC61730,"transcriptional regulator, LysR family","transportadores bacterianos de múltiples fármacos, resistencia bacteriana",0,0,0,0,1,0,0,0,0,0,K,Transcriptional regulator,-,-,HTH_1; LysR_substrate
+BAC62932,"transcriptional regulator, LysR family","transportadores bacterianos de múltiples fármacos, resistencia bacteriana",0,0,0,0,1,0,0,0,0,0,K,"Transcriptional regulator, LysR family",-,-,HTH_1; LysR_substrate
+BAC62950,putative transcriptional regulator,Transcripciòn,0,0,0,0,1,0,0,0,0,0,K,Transcriptional regulator,-,-,HTH_1; LysR_substrate
+BAC60037,putative carbon-nitrogen hydrolase,Reducciòn de nitrogeno orgànico y carbono,0,0,0,0,1,0,0,0,0,0,S,Carbon-nitrogen hydrolase,-,ko00330; ko01100; map00330; map01100,CN_hydrolase
+BAC58329,xanthosine phosphorylase,Enzima catalitica NAD(+),0,0,0,0,1,0,0,0,0,0,F,"The purine nucleoside phosphorylases catalyze the phosphorolytic breakdown of the N-glycosidic bond in the beta- (deoxy)ribonucleoside molecules, with the formation of the corresponding free purine bases and pentose-1-phosphate",-,ko00230; ko01100; ko01110; map00230; map01100; map01110,PNP_UDP_1
+BAC62828,ferredoxin-type protein NapH,portadores de electrones,0,0,0,0,1,0,0,0,0,0,C,Quinol dehydrogenase,-,-,Fer4_5; Fer4_6; Fer4_9
+BAC62491,putative high-affinity branched-chain amino acid transport ATP-binding protein,NA,0,0,0,0,1,0,0,0,0,0,E,branched-chain amino acid transport,-,ko02010; ko02024; map02010; map02024,ABC_tran
+BAC61477,ABC transporter permease protein,NA,0,0,0,0,1,0,0,0,0,0,P,Binding-protein-dependent transport system inner membrane component,-,ko02010; map02010,BPD_transp_1
+BAC62190,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,-,-,-,-,-
+BAC61436,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,E,haloacid dehalogenase-like hydrolase,-,-,HAD
+BAC61406,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,O,DSBA-like thioredoxin domain,-,-,DSBA
+BAC60057,conserved hypothetical protein,NA,0,0,0,0,1,0,0,0,0,0,J,Acetyltransferase (GNAT) domain,-,-,Acetyltransf_1
+BAC61561,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,L,COG0494 NTP pyrophosphohydrolases including oxidative damage repair enzymes,-,-,NUDIX
+CAV20264,ribosomal protein L11,NA,0,0,0,0,1,0,0,0,0,0,J,Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors,GO:0000027; GO:0003674; GO:0003676; GO:0003723; GO:0003735; GO:0005198; GO:0005488; GO:0005575; GO:0005622; GO:0005623; GO:0005737; GO:0005829; GO:0005840; GO:0006412; GO:0006518; GO:0006807; GO:0006996; GO:0008150; GO:0008152; GO:0009058; GO:0009059; GO:0009987; GO:0010467; GO:0015934; GO:0016043; GO:0019538; GO:0019843; GO:0022607; GO:0022613; GO:0022618; GO:0022625; GO:0022626; GO:0032991; GO:0034622; GO:0034641; GO:0034645; GO:0042254; GO:0042255; GO:0042273; GO:0043043; GO:0043170; GO:0043226; GO:0043228; GO:0043229; GO:0043232; GO:0043603; GO:0043604; GO:0043933; GO:0044085; GO:0044237; GO:0044238; GO:0044249; GO:0044260; GO:0044267; GO:0044271; GO:0044391; GO:0044422; GO:0044424; GO:0044444; GO:0044445; GO:0044446; GO:0044464; GO:0065003; GO:0070925; GO:0071704; GO:0071826; GO:0071840; GO:0097159; GO:1901363; GO:1901564; GO:1901566; GO:1901576; GO:1990904,ko03010; map03010,Ribosomal_L11; Ribosomal_L11_N
+BAC59921,low calcium response locus protein H,NA,0,0,0,0,1,0,0,0,0,0,S,Tetratricopeptide repeat,-,-,TPR_3
+BAC59888,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0,-,-,-,-,-
+BAC62933,conserved hypothetical protein,NA,0,0,0,0,1,0,0,0,0,0,S,Antibiotic biosynthesis monooxygenase,-,-,ABM
+BAC94842,conserved hypothetical protein,NA,0,0,0,0,1,0,0,0,0,0,-,-,-,-,-
+BAC60988,hypothetical protein,Funciòn hipotètica,1,0,0,0,1,0,0,0,0,0,S,Phage shock protein G (Phageshock_PspG),-,-,Phageshock_PspG
+BAC93806,conserved hypothetical protein,NA,1,0,0,0,1,0,0,0,0,0,S,FeoC like transcriptional regulator,-,-,FeoC
+AAP96373,NapE protein,"NapE del sistema respiratorio de nitrato reductasa periplásmico, es parte de una familia de pequeñas proteínas necesarias para estabilizar los sistemas respiratorios anclados a membranas de ciertas proteobacterias.",1,0,0,0,0,0,0,0,0,0,H,"Catalyzes the formation of pyridoxal 5'-phosphate from ribose 5-phosphate (RBP), glyceraldehyde 3-phosphate (G3P) and ammonia. The ammonia is provided by the PdxT subunit. Can also use ribulose 5-phosphate and dihydroxyacetone phosphate as substrates, resulting from enzyme-catalyzed isomerization of RBP and G3P, respectively",-,ko00750; map00750,SOR_SNZ
+AAO09477,NADH dehydrogenase subunit II-related protein,NA,1,0,0,0,0,0,0,0,0,0,-,-,-,-,-
+CAV20250,DNA-binding protein HU-alpha,NA,1,0,0,0,0,0,0,0,0,0,L,"Histone-like DNA-binding protein which is capable of wrapping DNA to stabilize it, and thus to prevent its denaturation under extreme environmental conditions",GO:0003674; GO:0003676; GO:0003677; GO:0005488; GO:0005575; GO:0005622; GO:0005623; GO:0005694; GO:0005737; GO:0005829; GO:0006323; GO:0006996; GO:0008150; GO:0009889; GO:0009987; GO:0010556; GO:0016043; GO:0019219; GO:0019222; GO:0031323; GO:0031326; GO:0043226; GO:0043228; GO:0043229; GO:0043232; GO:0044424; GO:0044444; GO:0044464; GO:0050789; GO:0050794; GO:0051171; GO:0051252; GO:0051276; GO:0060255; GO:0065007; GO:0071103; GO:0071840; GO:0080090; GO:0097159; GO:1901363; GO:1903506; GO:2001141,-,Bac_DNA_binding
+ABQ19809,acyl carrier protein,NA,1,0,0,0,1,0,0,0,0,0,IQ,Carrier of the growing fatty acid chain in fatty acid biosynthesis,GO:0000035; GO:0000036; GO:0003674; GO:0005488; GO:0005575; GO:0005622; GO:0005623; GO:0005737; GO:0005829; GO:0005975; GO:0006082; GO:0006629; GO:0006631; GO:0006633; GO:0006643; GO:0006644; GO:0006664; GO:0006793; GO:0006796; GO:0008150; GO:0008152; GO:0008610; GO:0008654; GO:0009058; GO:0009245; GO:0009247; GO:0009311; GO:0009312; GO:0009987; GO:0016051; GO:0016053; GO:0019637; GO:0019752; GO:0019842; GO:0031177; GO:0032787; GO:0033218; GO:0036094; GO:0043167; GO:0043168; GO:0043436; GO:0044237; GO:0044238; GO:0044249; GO:0044255; GO:0044281; GO:0044283; GO:0044424; GO:0044444; GO:0044464; GO:0044620; GO:0046394; GO:0046467; GO:0046493; GO:0048037; GO:0051192; GO:0071704; GO:0072330; GO:0072341; GO:0090407; GO:0140104; GO:1901135; GO:1901137; GO:1901269; GO:1901271; GO:1901576; GO:1903509,-,PP-binding
+BAC60105,RelB protein,NA,1,0,0,0,1,0,0,0,0,0,S,RelB antitoxin,-,-,RelB
+BAC94954,conserved hypothetical protein,NA,1,0,0,0,0,0,0,0,0,0,S,Transcription factor zinc-finger,-,-,zf-TFIIB
+CAV18990,putative 6-pyruvoyl tetrahydrobiopterin synthase,NA,1,0,0,0,0,0,0,0,0,0,H,6-pyruvoyl tetrahydropterin synthase,-,ko00790; ko01100; map00790; map01100,PTPS
+CAV17302,ribosomal protein S6,NA,1,0,0,0,0,0,0,0,0,0,J,Binds together with S18 to 16S ribosomal RNA,GO:0003674; GO:0003676; GO:0003723; GO:0003735; GO:0005198; GO:0005488; GO:0005575; GO:0005622; GO:0005623; GO:0005737; GO:0005829; GO:0005840; GO:0006412; GO:0006518; GO:0006807; GO:0008150; GO:0008152; GO:0009058; GO:0009059; GO:0009987; GO:0010467; GO:0015935; GO:0019538; GO:0019843; GO:0022626; GO:0022627; GO:0032991; GO:0034641; GO:0034645; GO:0043043; GO:0043170; GO:0043226; GO:0043228; GO:0043229; GO:0043232; GO:0043603; GO:0043604; GO:0044237; GO:0044238; GO:0044249; GO:0044260; GO:0044267; GO:0044271; GO:0044391; GO:0044422; GO:0044424; GO:0044444; GO:0044445; GO:0044446; GO:0044464; GO:0070181; GO:0071704; GO:0097159; GO:1901363; GO:1901564; GO:1901566; GO:1901576; GO:1990904,ko03010; map03010,Ribosomal_S6
+BAC59321,TolR membrane protein,integridad de la membrana externa,1,0,0,0,0,0,0,0,0,0,U,TolR membrane protein,-,-,ExbD
+BAC58631,mannitol operon repressor,NA,1,0,0,0,1,0,0,0,0,0,K,Mannitol operon repressor,-,-,MtlR
+BAC61011,putative fimbrial assembly protein PilO,NA,1,0,0,0,0,0,0,0,0,0,NU,assembly protein PilO,-,-,PilO
+BAC61474,putative hydroxyethylthiazole kinase,NA,1,0,0,0,0,0,0,0,0,0,H,Catalyzes the phosphorylation of the hydroxyl group of 4-methyl-5-beta-hydroxyethylthiazole (THZ),-,ko00730; ko01100; map00730; map01100,HK
+BAC63044,putative transcriptional regulatory protein,NA,1,0,0,0,0,0,0,0,0,0,K,COG2186 Transcriptional regulators,-,-,FCD; GntR
+BAC61477,ABC transporter permease protein,NA,1,0,0,0,0,0,0,0,0,0,P,Binding-protein-dependent transport system inner membrane component,-,ko02010; map02010,BPD_transp_1
+BAC59423,NapE protein,NapE del sistema respiratorio de nitrato reductasa periplásmico son parte de una familia de pequeñas proteínas necesarias para estabilizar los sistemas respiratorios anclados a membranas de ciertas proteobacterias.,1,1,1,1,1,0,0,0,0,0,C,"COG4459 Periplasmic nitrate reductase system, NapE component",-,-,NapE
+BAC92891,transcriptional regulator,NA,1,0,0,0,0,0,0,0,0,0,K,Transcriptional regulator,-,-,TetR_N
+BAC62328,putative formate dehydrogenase,NA,1,0,0,0,1,0,0,0,0,0,P,COG2116 Formate nitrite family of transporters,-,-,Form_Nir_trans
+BAC59023,putative chitoporin,NA,1,0,0,0,0,0,0,0,0,0,M,COG3203 Outer membrane protein (porin),-,-,Porin_4
+BAC62626,putative MFS transporter,NA,1,0,0,0,0,0,0,0,0,0,EGP,COG0477 Permeases of the major facilitator superfamily,-,-,MFS_1
+BAC59340,"integrase, phage family",NA,1,0,0,0,0,0,0,0,0,0,L,Belongs to the 'phage' integrase family,-,-,Arm-DNA-bind_3; Phage_int_SAM_3; Phage_integrase
+BAC58940,gamma-glutamyl phosphate reductase,NA,1,0,0,0,1,0,0,0,0,0,E,Catalyzes the NADPH-dependent reduction of L-glutamate 5-phosphate into L-glutamate 5-semialdehyde and phosphate. The product spontaneously undergoes cyclization to form 1-pyrroline-5- carboxylate,GO:0003674; GO:0003824; GO:0004350; GO:0006082; GO:0006520; GO:0006560; GO:0006561; GO:0006807; GO:0008150; GO:0008152; GO:0008652; GO:0009058; GO:0009064; GO:0009084; GO:0009987; GO:0016053; GO:0016491; GO:0016620; GO:0016903; GO:0018130; GO:0019752; GO:0043436; GO:0044237; GO:0044238; GO:0044249; GO:0044281; GO:0044283; GO:0046394; GO:0046483; GO:0055114; GO:0071704; GO:1901360; GO:1901362; GO:1901564; GO:1901566; GO:1901576; GO:1901605; GO:1901607,ko00330; ko00332; ko01100; ko01110; ko01130; ko01230; map00330; map00332; map01100; map01110; map01130; map01230,Aldedh
+BAC60897,6-phospho-beta-glucosidase,NA,1,0,0,0,1,0,0,0,0,0,G,"COG1486 Alpha-galactosidases 6-phospho-beta-glucosidases, family 4 of glycosyl hydrolases",-,ko00010; ko00500; map00010; map00500,Glyco_hydro_4; Glyco_hydro_4C
+BAC97591,6-phospho-beta-glucosidase,NA,1,0,0,0,0,0,0,0,0,0,G,"COG1486 Alpha-galactosidases 6-phospho-beta-glucosidases, family 4 of glycosyl hydrolases",-,ko00010; ko00500; map00010; map00500,Glyco_hydro_4; Glyco_hydro_4C
+ACQ59681,Trk system potassium uptake protein TrkA,NA,1,0,0,0,1,0,0,0,0,0,P,Potassium transporter peripheral membrane component,-,-,TrkA_C; TrkA_N
+BAC94943,L-fucose isomerase,NA,1,0,0,0,0,0,0,0,0,0,G,Converts the aldose L-fucose into the corresponding ketose L-fuculose,-,ko00051; ko01120; map00051; map01120,Fucose_iso_C; Fucose_iso_N1; Fucose_iso_N2
+BAC59657,putative VgrG protein,NA,1,0,0,0,0,0,0,0,0,0,M,protein conserved in bacteria,GO:0000166; GO:0000287; GO:0003674; GO:0003824; GO:0005488; GO:0005524; GO:0005575; GO:0006464; GO:0006807; GO:0006996; GO:0007010; GO:0007015; GO:0008144; GO:0008150; GO:0008152; GO:0008154; GO:0009405; GO:0009987; GO:0016043; GO:0016874; GO:0016879; GO:0016881; GO:0017076; GO:0018149; GO:0018153; GO:0018193; GO:0018199; GO:0018205; GO:0018262; GO:0018995; GO:0019538; GO:0022411; GO:0030029; GO:0030036; GO:0030042; GO:0030430; GO:0030554; GO:0032553; GO:0032555; GO:0032559; GO:0032984; GO:0033643; GO:0033646; GO:0035639; GO:0036094; GO:0036211; GO:0043167; GO:0043168; GO:0043169; GO:0043170; GO:0043412; GO:0043624; GO:0043656; GO:0043657; GO:0043933; GO:0044215; GO:0044216; GO:0044217; GO:0044237; GO:0044238; GO:0044260; GO:0044267; GO:0044419; GO:0046872; GO:0051261; GO:0051704; GO:0071704; GO:0071840; GO:0097159; GO:0097367; GO:0097435; GO:1901265; GO:1901363; GO:1901564,ko03070; map03070,PG_binding_1; Phage_GPD
+BAC58283,alpha-amylase,NA,1,0,0,0,0,0,0,0,0,0,G,alpha-amylase,-,ko00500; ko01100; ko04973; map00500; map01100; map04973,Alpha-amylase
+CAV26662,ABC transporter (IM-ABC),NA,1,0,0,0,0,0,0,0,0,0,V,ABC transporter,-,-,ABC_membrane; ABC_tran
+BAC62910,putative pyruvate formate lyase,NA,1,0,0,0,0,0,0,0,0,0,C,Pyruvate formate lyase-like,-,ko00620; ko00640; ko00650; ko01100; ko01120; map00620; map00640; map00650; map01100; map01120,Gly_radical; PFL-like
+ABO88327,primosomal protein N',NA,0,0,0,0,0,0,1,0,0,0,L,"Involved in the restart of stalled replication forks. Recognizes and binds the arrested nascent DNA chain at stalled replication forks. It can open the DNA duplex, via its helicase activity, and promote assembly of the primosome and loading of the major replicative helicase DnaB onto DNA",-,ko03440; map03440,DEAD; Helicase_C
+ABK37213,aspartyl-tRNA synthetase,NA,0,0,0,0,0,0,1,0,0,0,J,Catalyzes the attachment of L-aspartate to tRNA(Asp) in a two-step reaction L-aspartate is first activated by ATP to form Asp-AMP and then transferred to the acceptor end of tRNA(Asp),-,ko00970; map00970,GAD; tRNA-synt_2; tRNA_anti-codon
+ABK37920,conserved hypothetical protein,NA,0,0,0,0,0,0,1,0,0,0,S,"Type VI secretion system, TssF",-,-,T6SS_TssF
+ABK36070,"decarboxylase, group II",NA,0,0,0,0,0,0,1,0,0,0,E,decarboxylase,-,-,Pyridoxal_deC
+ABK38267,thiamine monophosphate synthase,NA,0,0,0,0,0,0,1,0,0,0,H,Condenses 4-methyl-5-(beta-hydroxyethyl)thiazole monophosphate (THZ-P) and 2-methyl-4-amino-5-hydroxymethyl pyrimidine pyrophosphate (HMP-PP) to form thiamine monophosphate (TMP),-,ko00730; ko01100; map00730; map01100,Phos_pyr_kin; TMP-TENI
+ABK37802,nucleoside permease NupC,NA,0,0,0,0,0,0,1,0,0,0,F,Belongs to the concentrative nucleoside transporter (CNT) (TC 2.A.41) family,GO:0003674; GO:0005215; GO:0005337; GO:0005575; GO:0005623; GO:0005886; GO:0005887; GO:0006810; GO:0006811; GO:0006812; GO:0008150; GO:0008324; GO:0015075; GO:0015077; GO:0015078; GO:0015212; GO:0015213; GO:0015214; GO:0015291; GO:0015293; GO:0015294; GO:0015295; GO:0015318; GO:0015506; GO:0015672; GO:0015858; GO:0015861; GO:0015862; GO:0015864; GO:0015931; GO:0015932; GO:0016020; GO:0016021; GO:0022804; GO:0022857; GO:0022890; GO:0031224; GO:0031226; GO:0034220; GO:0044425; GO:0044459; GO:0044464; GO:0051179; GO:0051234; GO:0055085; GO:0071702; GO:0071705; GO:0071944; GO:0072531; GO:0098655; GO:0098660; GO:0098662; GO:1901264; GO:1901505; GO:1901642; GO:1902600,-,Gate; Nucleos_tra2_C; Nucleos_tra2_N
+ABK36462,sugar phosphate permease,NA,0,0,0,0,0,0,1,0,0,0,G,transporter,-,ko02020; map02020,MFS_1
+ABK39124,"aminotransferase, classes I and II",NA,0,0,0,0,0,0,1,0,0,0,E,I and II,-,ko00300; ko01100; ko01130; ko01210; map00300; map01100; map01130; map01210,Aminotran_1_2
+ABO90776,StbA protein,NA,0,0,0,0,0,0,1,0,0,0,O,PFAM StbA family protein,-,-,StbA
+ABK37335,aspartate--ammonia ligase,NA,0,0,0,0,0,0,1,0,0,0,E,Aspartate-ammonia ligase,-,ko00250; ko00460; ko01100; ko01110; ko01230; map00250; map00460; map01100; map01110; map01230,AsnA
+ABK37319,membrane lipoprotein,Proteìna de Membrana cèlular,0,0,0,0,0,0,1,0,0,0,M,ABC transporter substrate-binding protein PnrA-like,-,-,Bmp
+ABK36407,aspartate-semialdehyde dehydrogenase,NA,0,0,0,0,0,0,1,0,0,0,E,Catalyzes the NADPH-dependent formation of L-aspartate- semialdehyde (L-ASA) by the reductive dephosphorylation of L- aspartyl-4-phosphate,-,ko00260; ko00261; ko00270; ko00300; ko01100; ko01110; ko01120; ko01130; ko01210; ko01230; map00260; map00261; map00270; map00300; map01100; map01110; map01120; map01130; map01210; map01230,Semialdhyde_dh; Semialdhyde_dhC
+ABO91176,"isocitrate dehydrogenase, NAD-dependent",NA,0,0,0,0,0,0,1,0,0,0,C,Isocitrate/isopropylmalate dehydrogenase,-,ko00020; ko01100; ko01110; ko01120; ko01130; ko01200; ko01210; ko01230; map00020; map01100; map01110; map01120; map01130; map01200; map01210; map01230,Iso_dh
+ABK36433,orotate phosphoribosyltransferase,NA,0,0,0,0,0,0,1,0,0,0,F,"Catalyzes the transfer of a ribosyl phosphate group from 5-phosphoribose 1-diphosphate to orotate, leading to the formation of orotidine monophosphate (OMP)",-,ko00240; ko01100; map00240; map01100,Pribosyltran
+ABK36314,"methionine aminopeptidase, type I",NA,0,0,0,0,0,0,1,0,0,0,E,Methionine aminopeptidase,-,-,Peptidase_M24
+ABK38511,"molybdate ABC transporter, permease protein",NA,0,0,0,0,0,0,1,0,0,0,P,Binding-protein-dependent transport system inner membrane component,-,ko02010; map02010,BPD_transp_1
+ABK36859,"arginine ABC transporter, permease protein ArtQ",NA,0,0,0,0,0,0,1,0,0,0,P,Binding-protein-dependent transport system inner membrane component,-,ko02010; map02010,BPD_transp_1
+ABK37728,ferritin,NA,0,0,0,0,0,0,1,0,0,0,P,Iron-storage protein,GO:0003674; GO:0003824; GO:0004322; GO:0005488; GO:0005506; GO:0005515; GO:0005575; GO:0005622; GO:0005623; GO:0005737; GO:0005829; GO:0006873; GO:0006875; GO:0006879; GO:0006880; GO:0006950; GO:0006974; GO:0006979; GO:0008150; GO:0008152; GO:0008199; GO:0009987; GO:0010035; GO:0010038; GO:0010039; GO:0016491; GO:0016722; GO:0016724; GO:0019725; GO:0030003; GO:0033554; GO:0042221; GO:0042592; GO:0042802; GO:0043167; GO:0043169; GO:0044424; GO:0044444; GO:0044464; GO:0046872; GO:0046914; GO:0046916; GO:0048878; GO:0050801; GO:0050896; GO:0051179; GO:0051235; GO:0051238; GO:0051641; GO:0051651; GO:0051716; GO:0055065; GO:0055072; GO:0055076; GO:0055080; GO:0055082; GO:0055114; GO:0065007; GO:0065008; GO:0070887; GO:0071241; GO:0071248; GO:0071281; GO:0097577; GO:0098771,-,Ferritin
+ABK36859,"arginine ABC transporter, permease protein ArtQ",NA,0,0,0,0,0,0,1,0,0,0,P,Binding-protein-dependent transport system inner membrane component,-,ko02010; map02010,BPD_transp_1
+CAL09441,NADH oxidase,NA,0,0,0,0,0,0,0,0,1,0,P,Pyridine nucleotide-disulphide oxidoreductase,-,-,Pyr_redox_2; Pyr_redox_dim; Reductase_C; Rhodanese
+NA,CTP synthase,NA,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA
+NA,translation elongation factor 1A (EF-1A/EF-Tu),NA,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA
+NA,putative pyridoxine biosynthesis protein,NA,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA
+NA,putative dihydrofolate reductase,NA,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA
+NA,hypothetical protein,Funciòn hipotètica,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA
+AAS61714,putative ABC transporter (ATP-binding protein),NA,0,0,0,0,0,0,0,0,1,0,V,"ABC transporter, ATP-binding protein",-,-,ABC_membrane; ABC_tran
+NA,putative glutathione S-transferase family protein,NA,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA
+AAS61714,putative ABC transporter (ATP-binding protein),NA,0,0,0,0,0,0,0,0,1,0,V,"ABC transporter, ATP-binding protein",-,-,ABC_membrane; ABC_tran
+CAL09441,NADH oxidase,NA,0,0,0,0,0,0,0,0,1,0,P,Pyridine nucleotide-disulphide oxidoreductase,-,-,Pyr_redox_2; Pyr_redox_dim; Reductase_C; Rhodanese
+ABO12257,putative dihydrofolate reductase,NA,0,0,0,0,0,0,0,0,1,0,H,RibD C-terminal domain,-,-,RibD_C
+ACB55644,hypothetical protein,Funciòn hipotètica,0,0,0,0,0,0,0,0,1,0,-,-,-,-,-
+AAK03316,unknown,NA,0,0,0,0,0,0,0,0,1,0,H,"Catalyzes the formation of pyridoxal 5'-phosphate from ribose 5-phosphate (RBP), glyceraldehyde 3-phosphate (G3P) and ammonia. The ammonia is provided by the PdxT subunit. Can also use ribulose 5-phosphate and dihydroxyacetone phosphate as substrates, resulting from enzyme-catalyzed isomerization of RBP and G3P, respectively",-,ko00750; map00750,SOR_SNZ
+AAP96373,putative pyridoxine biosynthesis protein,NA,0,0,0,0,0,0,0,0,1,0,H,"Catalyzes the formation of pyridoxal 5'-phosphate from ribose 5-phosphate (RBP), glyceraldehyde 3-phosphate (G3P) and ammonia. The ammonia is provided by the PdxT subunit. Can also use ribulose 5-phosphate and dihydroxyacetone phosphate as substrates, resulting from enzyme-catalyzed isomerization of RBP and G3P, respectively",-,ko00750; map00750,SOR_SNZ
+BAC59165,putative hemolysin,Citotòxina dependiente de Calcio,0,1,1,1,0,0,0,0,0,0,P,COG1253 Hemolysins and related proteins containing CBS domains,-,-,CBS; CorC_HlyC; DUF21
+BAC61710,"spermidine/putrescine ABC transporter, periplasmic spermidine/putrescine-binding protein",NA,0,0,0,0,1,0,0,1,0,0,P,Required for the activity of the bacterial periplasmic transport system of putrescine,-,ko02010; map02010,SBP_bac_8
+BAC62760,putative glutathione S-transferase family protein,NA,0,0,0,0,0,0,0,1,0,0,O,glutathione S-transferase,-,-,GST_C; GST_C_3; GST_N
+AAP96373,putative pyridoxine biosynthesis protein,NA,0,0,0,0,0,1,0,0,0,0,H,"Catalyzes the formation of pyridoxal 5'-phosphate from ribose 5-phosphate (RBP), glyceraldehyde 3-phosphate (G3P) and ammonia. The ammonia is provided by the PdxT subunit. Can also use ribulose 5-phosphate and dihydroxyacetone phosphate as substrates, resulting from enzyme-catalyzed isomerization of RBP and G3P, respectively",-,ko00750; map00750,SOR_SNZ
+ABC32239,uncharacterized protein conserved in bacteria,NA,0,0,0,0,0,0,0,0,0,1,S,"Oxygenase, catalysing oxidative methylation of damaged DNA",-,-,Oxygenase-NA
+BAC62431,c-di-GMP phosphodiesterase A-related protein,NA,0,0,0,1,0,0,0,0,0,0,T,COG2199 FOG GGDEF domain,GO:0007154; GO:0007165; GO:0008150; GO:0009987; GO:0023052; GO:0050789; GO:0050794; GO:0050896; GO:0051716; GO:0065007,ko05111; map05111,EAL; GGDEF
+BAC61153,lysine decarboxylase,NA,1,0,0,1,1,0,0,0,0,0,E,COG1982 Arginine lysine ornithine decarboxylases,-,ko00310; ko00960; ko01100; ko01110; map00310; map00960; map01100; map01110,OKR_DC_1; OKR_DC_1_C; OKR_DC_1_N
+BAC60519,flagellar hook-associated protein 2 FlaH,"Ensamblaje de flagelos, factor de virulencia",0,0,0,1,0,0,0,0,0,0,N,"morphogenesis and for the elongation of the flagellar filament by facilitating polymerization of the flagellin monomers at the tip of growing filament. Forms a capping structure, which prevents flagellin subunits (transported through the central channel of the flagellum) from leaking out without polymerization at the distal end",GO:0001539; GO:0003674; GO:0005198; GO:0005575; GO:0005576; GO:0005623; GO:0006928; GO:0008150; GO:0009288; GO:0009420; GO:0009421; GO:0009424; GO:0009987; GO:0040011; GO:0042995; GO:0043226; GO:0043228; GO:0044422; GO:0044461; GO:0044463; GO:0044464; GO:0048870; GO:0051179; GO:0051674; GO:0071973; GO:0097588,ko02040; map02040,Flagellin_IN; FliD_C; FliD_N
+BAC59495,conserved hypothetical protein,NA,1,1,1,1,1,0,0,0,0,0,P,transport protein,-,-,Asp-Al_Ex; TrkA_C
+BAC60431,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,M,Small-conductance mechanosensitive channel,-,-,MS_channel
+BAC59434,"peptide ABC transporter, periplasmic peptide-binding protein",NA,0,1,1,1,0,0,0,0,0,0,E,"COG4166 ABC-type oligopeptide transport system, periplasmic component",-,ko01503; ko02010; map01503; map02010,SBP_bac_5
+BAC62821,GGDEF family protein and,NA,0,0,0,1,0,0,0,0,0,0,T,COG2199 FOG GGDEF domain,-,-,GGDEF
+BAC62023,arylsulfatase,NA,0,0,0,1,1,0,0,0,0,0,P,Arylsulfatase,-,ko00140; ko00600; map00140; map00600,Sulfatase; Sulfatase_C
+BAC60720,N utilization substance protein A,NA,1,1,1,1,1,0,0,0,0,0,K,Participates in both transcription termination and antitermination,-,-,HHH_5; KH_5; NusA_N
+BAC61899,GGDEF family protein,NA,0,0,0,1,0,0,0,0,0,0,ET,"Bacterial extracellular solute-binding proteins, family 3",-,-,GGDEF; SBP_bac_3
+BAC62786,putative protein secretion protein,NA,0,1,1,1,0,0,0,0,0,0,M,COG0845 Membrane-fusion protein,-,-,Biotin_lipoyl_2; HlyD; HlyD_3
+BAC60734,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,M,COG0739 Membrane proteins related to metalloendopeptidases,-,-,OapA; OapA_N; Peptidase_M23
+BAC60903,hypothetical protein,Funciòn hipotètica,0,0,0,1,0,0,0,0,0,0,S,Predicted membrane protein (DUF2254),-,-,DUF2254
+BAC62910,putative pyruvate formate lyase,NA,1,0,0,0,0,0,0,0,0,0,C,Pyruvate formate lyase-like,-,ko00620; ko00640; ko00650; ko01100; ko01120; map00620; map00640; map00650; map01100; map01120,Gly_radical; PFL-like
+CAV26662,ABC transporter (IM-ABC),NA,1,0,0,0,0,0,0,0,0,0,V,ABC transporter,-,-,ABC_membrane; ABC_tran
+BAC62290,"transcriptional regulator, ArsR family",NA,0,1,1,0,0,0,0,0,0,0,K,Transcriptional regulator ArsR family,-,-,HTH_20; HTH_5
+BAC62827,hypothetical protein,Funciòn hipotètica,0,0,0,1,1,0,0,0,0,0,P,COG0477 Permeases of the major facilitator superfamily,-,-,MFS_1
+BAC62080,putative two-component response regulator,NA,0,0,0,1,0,0,0,0,0,0,T,COG0784 FOG CheY-like receiver,-,-,EAL; Response_reg
+BAC62823,conserved hypothetical protein,NA,0,1,1,1,1,0,0,0,0,0,V,multidrug resistance efflux pump,-,-,Biotin_lipoyl_2; HlyD_D23
+BAC61411,GGDEF family protein,NA,0,1,1,1,0,0,0,0,0,0,T,COG2199 FOG GGDEF domain,-,ko05111; map05111,GGDEF
+BAC61737,hypothetical protein,NA,0,0,0,1,0,0,0,0,0,0,V,HlyD family secretion protein,-,-,HlyD_3
+BAC61575,putative transcriptional regulator,NA,0,0,0,1,0,0,0,0,0,0,K,helix_turn _helix lactose operon repressor,-,-,LacI; Peripla_BP_3
+BAC61621,putative isopentenyl-diphosphate delta-isomerase,NA,0,1,1,1,0,0,0,0,0,0,C,"Involved in the biosynthesis of isoprenoids. Catalyzes the 1,3-allylic rearrangement of the homoallylic substrate isopentenyl (IPP) to its allylic isomer, dimethylallyl diphosphate (DMAPP)",-,ko00900; ko01100; ko01110; ko01130; map00900; map01100; map01110; map01130,FMN_dh
+BAC60895,"transcriptional regulator, LacI family",NA,0,0,0,1,0,0,0,0,0,0,K,"Transcriptional regulator, LacI family",-,-,LacI; Peripla_BP_3
+BAC59593,proline racemase,NA,0,0,0,1,0,0,0,0,0,0,E,Belongs to the proline racemase family,-,ko00330; map00330,Pro_racemase
+BAC62529,outer membrane protein OmpA,NA,0,1,1,1,0,0,0,0,0,0,M,Belongs to the ompA family,-,-,OMP_b-brl; OmpA; OmpA_membrane
+BAC62846,CsuE,NA,0,0,0,1,0,0,0,0,0,0,S,spore coat U domain protein,-,-,SCPU
+BAC59027,outer membrane protein OmpA,NA,0,1,1,1,0,0,0,0,0,0,M,Belongs to the ompA family,-,-,OmpA; OmpA_membrane
+BAC61915,putative cation efflux system component,NA,0,1,1,1,0,0,0,0,0,0,P,Co Zn Cd cation transporters,-,-,Cation_efflux
+BAC62261,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,Protein of unknown function (DUF2861),-,-,DUF2861
+BAC61916,"transcriptional regulator, LysR family",NA,0,1,1,1,0,0,0,0,0,0,K,Transcriptional regulator,-,-,HTH_1; LysR_substrate
+BAC59962,transcriptional regulator ExsA,NA,0,1,1,1,0,0,0,0,0,0,K,"helix_turn_helix, arabinose operon control protein",-,ko02025; map02025,HTH_18
+BAC62891,lateral flagellin LafA,NA,0,1,1,1,1,0,0,0,0,0,N,Flagellin is the subunit protein which polymerizes to form the filaments of bacterial flagella,GO:0005575; GO:0005576; GO:0005623; GO:0009288; GO:0042995; GO:0043226; GO:0043228; GO:0044464,ko02020; ko02040; ko04621; ko04626; ko05132; ko05134; map02020; map02040; map04621; map04626; map05132; map05134,Flagellin_C; Flagellin_N
+BAC59547,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,K,Transcriptional regulator,-,-,HTH_26
+BAC60333,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC62375,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,ImpE protein,-,-,ImpE
+BAC59075,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,Protein of unknown function (DUF1538),-,-,DUF1538
+BAC60999,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,M,salt-induced outer membrane protein,-,-,DUF481
+BAC61646,putative regulatory protein,NA,0,1,1,1,0,0,0,0,0,0,K,DeoR C terminal sensor domain,-,-,DeoRC; HTH_DeoR
+BAC61847,putative kinase,NA,0,1,1,1,0,0,0,0,0,0,H,Phosphoribulokinase / Uridine kinase family,-,-,PRK
+BAC61936,putative transcriptional regulator,NA,0,1,1,1,1,0,0,0,0,0,K,Transcriptional regulator,-,-,HTH_11; HTH_20; HTH_IclR; IclR
+BAC59699,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,L,3-methyladenine DNA glycosylase,-,-,Adenine_glyco
+BAC61651,conserved hypothetical protein,NA,0,1,1,1,1,0,0,0,0,0,F,COG1051 ADP-ribose pyrophosphatase,-,-,NUDIX
+BAC60215,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,Q,Haemolysin-type calcium-binding repeat (2 copies),-,-,HemolysinCabind
+BAC61609,LfgD,NA,0,1,1,1,0,0,0,0,0,0,N,Required for flagellar hook formation. May act as a scaffolding protein,-,ko02040; map02040,FLgD_tudor; FlgD; FlgD_ig
+BAC60246,putaive two-component response regulator,NA,0,1,1,1,0,0,0,0,0,0,K,COG0745 Response regulators consisting of a CheY-like receiver domain and a winged-helix DNA-binding domain,-,-,Response_reg; Trans_reg_C
+BAC62554,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,SH3_3
+BAC60987,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,M,"Has lipid A 3-O-deacylase activity. Hydrolyzes the ester bond at the 3 position of lipid A, a bioactive component of lipopolysaccharide (LPS), thereby releasing the primary fatty acyl moiety",-,-,OMP_b-brl
+BAC62789,"putative transcriptional regulator, LuxR family",NA,0,1,1,1,0,0,0,0,0,0,K,"helix_turn_helix, Lux Regulon",-,-,GerE
+BAC60973,"transcriptional regulator, LuxR family",NA,0,1,1,1,0,0,0,0,0,0,K,COG2197 Response regulator containing a CheY-like receiver domain and an HTH DNA-binding domain,-,ko02026; map02026,GerE
+BAC62434,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,"L,D-transpeptidase catalytic domain",-,-,YkuD_2
+BAC62943,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,U,UPF0056 membrane protein,-,-,MarC
+BAC60840,sigma-E factor negative regulatory protein RseA,NA,1,1,1,1,0,0,0,0,0,0,T,"An anti-sigma factor for extracytoplasmic function (ECF) sigma factor sigma-E (RpoE). ECF sigma factors are held in an inactive form by an anti-sigma factor until released by regulated intramembrane proteolysis (RIP). RIP occurs when an extracytoplasmic signal triggers a concerted proteolytic cascade to transmit information and elicit cellular responses. The membrane-spanning regulatory substrate protein is first cut periplasmically (site-1 protease, S1P, DegS), then within the membrane itself (site-2 protease, S2P, RseP), while cytoplasmic proteases finish degrading the anti-sigma factor, liberating sigma-E",-,-,RseA_C; RseA_N
+BAC59951,putative type III secretion protein,NA,0,1,1,1,0,0,0,0,0,0,NU,HrpE/YscL/FliH and V-type ATPase subunit E,-,ko03070; map03070,FliH
+BAC62190,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC61500,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,Putative PepSY_TM-like,-,-,PepSY_TM_like_2
+BAC59898,putative outer membrane protein,NA,0,1,1,1,0,0,0,0,0,0,M,Belongs to the ompA family,-,-,OmpA
+BAC61224,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,S,YhhN family,-,-,YhhN
+BAC62052,HAD superfamily hydrolase,NA,0,1,1,1,0,0,0,0,0,0,S,hydrolase (HAD superfamily),-,-,HAD_2
+BAC59570,putative alpha-ribazole-5'-phosphate phosphatase CobC,NA,0,1,1,1,0,0,0,0,0,0,G,"COG0406 Fructose-2,6-bisphosphatase",-,ko00860; ko01100; map00860; map01100,His_Phos_1
+BAC61871,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,Q,"COG0179 2-keto-4-pentenoate hydratase 2-oxohepta-3-ene-1,7-dioic acid hydratase (catechol pathway)",-,-,FAA_hydrolase
+BAC62788,putative secreted calcium-binding protein,NA,0,1,1,1,0,0,0,0,0,0,Q,Haemolysin-type calcium-binding repeat (2 copies),-,-,HemolysinCabind
+BAC59014,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,S,protein conserved in bacteria,-,-,Smr
+BAC61012,putative fimbrial assembly protein PilN,NA,0,1,1,1,0,0,0,0,0,0,NU,assembly protein PilN,-,-,PilN
+BAC63066,putative ribosomal protein N-acetyltransferase,NA,0,1,1,1,1,0,0,0,0,0,J,"COG1670 Acetyltransferases, including N-acetylases of ribosomal proteins",-,-,Acetyltransf_3
+BAC60005,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC60233,intracellular sepatation protein,NA,0,1,1,1,0,0,0,0,0,0,D,probably involved in intracellular septation,-,-,IspA
+BAC60930,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,Involved in the assembly of lipopolysaccharide (LPS). Required for the translocation of LPS from the inner membrane to the outer membrane. Facilitates the transfer of LPS from the inner membrane to the periplasmic protein LptA. Could be a docking site for LptA,-,-,LptC
+BAC62979,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC58989,rare lipoprotein B,NA,0,1,1,1,0,0,0,0,0,0,M,"Together with LptD, is involved in the assembly of lipopolysaccharide (LPS) at the surface of the outer membrane. Required for the proper assembly of LptD. Binds LPS and may serve as the LPS recognition site at the outer membrane",-,-,LptE
+BAC61893,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC60187,thiol:disulfide interchange protein DsbE,NA,0,1,1,1,0,0,0,0,0,0,CO,Thiol disulfide interchange protein dsbE,-,-,Redoxin
+BAC58428,TonB system transport protein ExbB2,NA,1,1,1,1,1,0,0,0,0,0,U,TonB system transport protein ExbB2,-,-,MotA_ExbB
+BAC60202,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,E,Glycine cleavage system regulatory protein,-,-,ACT_6
+BAC59878,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,Q,Domain of unknown function (DUF4442),-,-,DUF4442
+BAC58756,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC62796,hypothetical protein,Funciòn hipotètica,0,0,0,1,0,0,0,0,0,0,S,Domain of unknown function (DUF4381),-,-,DUF4381
+BAC60935,nitrogen regulatory IIA protein PtsN,NA,1,1,1,1,1,0,0,0,0,0,G,Phosphotransferase system mannitol fructose-specific IIA domain (Ntr-type),-,ko02060; map02060,PTS_EIIA_2
+BAC60508,polar flagellar assembly protein FliJ,NA,0,1,1,1,0,0,0,0,0,0,N,COG2882 Flagellar biosynthesis chaperone,-,ko02040; map02040,FliJ
+BAC60883,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,1,0,0,S,Domain of unknown function (DUF4426),-,-,DUF4426
+BAC58504,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,S,Protein of unknown function (DUF805),-,-,DUF805
+BAC59319,conserved hypothetical protein,NA,0,1,1,1,1,0,0,0,0,0,S,Thioesterase-like superfamily,-,-,4HBT
+BAC59913,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,S,"Evidence 3 Function proposed based on presence of conserved amino acid motif, structural feature or limited homology",-,-,GFA
+BAC61486,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,S,Protein of unknown function (DUF2810),-,-,DUF2810
+BAC62364,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,Cystatin domain,-,-,Cystatin
+BAC62095,glutathione S-transferase-related protein,NA,0,1,1,1,0,0,0,0,0,0,S,"relative of glutathione S-transferase, MAPEG superfamily",-,-,MAPEG
+BAC59808,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC61135,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC61100,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0,S,VanZ like family,-,-,VanZ
+BAC62267,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,Late competence development protein ComFB,-,-,ComFB
+BAC59076,putative nitrogen regulatory protein P-II family protein,NA,0,1,1,1,1,0,0,0,0,0,K,Belongs to the P(II) protein family,-,-,-
+BAC58572,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,S,"Gamma-glutamyl cyclotransferase, AIG2-like",-,-,GGACT
+BAC61571,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC59954,type III export protein,NA,0,1,1,1,0,0,0,0,0,0,S,"Type III secretion basal body protein I, YscI, HrpB, PscI",-,-,T3SS_basalb_I
+BAC61840,"putative regulatory protein, ArsR family",NA,0,1,1,1,0,0,0,0,0,0,K,transcriptional regulators,-,-,HTH_20; HTH_5
+BAC58804,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,S,Protein of unknown function (DUF2799),-,-,DUF2799
+BAC62037,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,S,Bacterial OB fold (BOF) protein,-,-,BOF
+BAC59837,hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC62541,NapD protein,NA,1,1,1,1,0,0,0,0,0,0,P,protein involved in formation of periplasmic nitrate reductase,-,-,NapD
+BAC58828,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0,-,-,-,-,-
+BAC60900,"PTS system, cellobiose-specific IIB component",NA,0,1,1,1,0,0,0,0,0,0,G,COG1440 Phosphotransferase system cellobiose-specific component IIB,-,ko00500; ko02060; map00500; map02060,PTS_IIB
+BAC59929,hypothetical protein in type III secretion,NA,0,1,1,1,0,0,0,0,0,0,S,TyeA,-,-,TyeA
+BAC61401,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC61622,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0,S,Protein of unknown function (DUF3012),-,-,DUF3012
+BAC61600,hemolysis,permite a las bacterias romper la barrera epitelial del tracto intestinal y así desplazarse a través del torrente sanguíneo hasta colonizar otros tejidos.,0,0,0,1,0,0,0,0,0,0,S,Hemolysin,-,-,DUF333
+BAC62341,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC60240,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,Domain of unknown function (DUF4250),-,-,DUF4250
+BAC60160,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC59122,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,FeoC like transcriptional regulator,-,-,FeoC
+BAC62013,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC62424,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0,-,-,-,-,-
+BAC62567,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC60411,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC62019,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0,-,-,-,-,-
+BAC60635,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC58765,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,S,Protein of unknown function (DUF3545),-,-,DUF3545
+BAC60135,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC58289,hypothetical protein,Funciòn hipotètica,1,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC59380,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC59801,FixS-related protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,P,"protein, possibly involved in nitrogen fixation",-,-,FixS
+BAC60003,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-
+BAC58280,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0,-,-,-,-,-

@@ -1,0 +1,72 @@
+posición,15_CESAIBC,6_VM,tipo_cambio
+1,M,S,ganancia de polaridad
+3,H,Q,pérdida de carga
+4,S,K,ganancia de carga
+28,A,S,ganancia de polaridad
+30,V,I,conservativo
+32,I,V,conservativo
+36,Q,K,ganancia de carga
+37,N,D,ganancia de carga
+40,Q,A,pérdida de polaridad
+42,T,S,conservativo
+44,V,A,conservativo
+46,S,T,conservativo
+48,S,L,pérdida de polaridad
+49,A,G,pérdida de hidrofobicidad
+50,T,S,conservativo
+51,V,I,conservativo
+53,G,A,ganancia de hidrofobicidad
+55,L,V,conservativo
+57,N,P,pérdida de polaridad
+58,I,A,conservativo
+59,D,E,conservativo
+61,Y,M,conservativo
+62,Q,I,pérdida de polaridad
+64,E,S,pérdida de carga
+65,N,E,ganancia de carga
+67,G,T,ganancia de polaridad
+75,L,I,conservativo
+76,V,S,ganancia de polaridad
+79,T,V,pérdida de polaridad
+81,T,A,pérdida de polaridad
+82,M,L,conservativo
+83,N,G,pérdida de polaridad
+84,A,G,pérdida de hidrofobicidad
+85,I,S,ganancia de polaridad
+86,G,A,ganancia de hidrofobicidad
+87,T,S,conservativo
+88,I,H,ganancia de carga
+89,T,A,pérdida de polaridad
+91,A,G,pérdida de hidrofobicidad
+92,P,T,ganancia de polaridad
+93,V,I,conservativo
+94,G,S,ganancia de polaridad
+95,T,A,pérdida de polaridad
+98,G,S,ganancia de polaridad
+99,T,E,ganancia de carga
+100,A,I,conservativo
+101,T,K,ganancia de carga
+103,A,T,ganancia de polaridad
+105,V,N,ganancia de polaridad
+106,E,T,pérdida de carga
+110,K,N,pérdida de carga
+111,G,N,ganancia de polaridad
+113,T,K,ganancia de carga
+116,V,I,conservativo
+117,Q,T,conservativo
+118,Y,L,conservativo
+119,S,T,conservativo
+121,D,N,pérdida de carga
+122,N,P,pérdida de polaridad
+123,D,S,pérdida de carga
+127,T,A,pérdida de polaridad
+129,A,T,ganancia de polaridad
+130,T,Y,pérdida de polaridad
+131,K,D,cambio de carga (+/-)
+132,N,T,conservativo
+133,V,G,pérdida de hidrofobicidad
+134,P,V,ganancia de hidrofobicidad
+135,T,P,pérdida de polaridad
+136,D,L,pérdida de carga
+137,S,D,ganancia de carga
+143,T,N,conservativo

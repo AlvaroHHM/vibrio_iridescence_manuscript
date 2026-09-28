@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # ============================================================
 # Figura 6 - Cuatro paneles en 2x2
-#   A) Curvas de sobrevivencia por dosis (15_CESAIBC)
+#   A) Curvas de survival por dosis (15_CESAIBC)
 #   B) Mortalidad acumulada por dosis con CLD
 #   C) Curvas descriptivas de 7 cepas
 #   D) Boxplot de mortalidad en 3 cepas de V. parahaemolyticus
@@ -19,13 +19,14 @@ suppressPackageStartupMessages({
   library(rstatix)
 })
 
-setwd("~/Downloads/10_cepas/sobrevivencia")
+# setwd() eliminado; usar here::here() o ruta relativa
 
 # ============================================================
 # 1. DATOS PANELES A y B: dosis de 15_CESAIBC
 # ============================================================
-archivo_wide <- "Sobrevivencia a Vibrio parahaemolyticus.csv"
-df_wide <- read_csv(archivo_wide, show_col_types = FALSE)
+df_wide <- read_csv("../data/processed/survival_kaplan_meier.csv", show_col_types = FALSE)
+# Renombrar columnas al formato esperado
+colnames(df_wide) <- c("id", "time", "Control", "3.9e1", "3.9e2", "3.9e3", "3.9e4", "3.9e5")
 colnames(df_wide)[1] <- "id"
 colnames(df_wide)[2] <- "time"
 
@@ -51,44 +52,13 @@ paleta_dosis <- c(
 # ============================================================
 # 2. DATOS PANEL C: curvas de 7 cepas
 # ============================================================
-datos_C <- tibble::tribble(
-  ~serie,         ~horas, ~sobrevivencia,
-  "Control",       0,      100,
-  "Control",       39.7,   99.5,
-  "Control",       64.9,   99.1,
-  "Control",       88.4,   98.3,
-  "Control",       110.3,  97.2,
-  "Control",       120.2,  97.3,
-  "1_MXM",         0,      100,
-  "1_MXM",         69.9,   89.7,
-  "1_MXM",         79.9,   82,
-  "1_MXM",         120.2,  82,
-  "AT_BV",         0,      100,
-  "AT_BV",         59.8,   86.6,
-  "AT_BV",         100,    86.6,
-  "AT_BV",         120.3,  86.7,
-  "15_CESAIBC",    0,      100,
-  "15_CESAIBC",    39.5,   80.3,
-  "15_CESAIBC",    100.3,  78.8,
-  "15_CESAIBC",    120.4,  78.8,
-  "3_MXM",         0,      100,
-  "3_MXM",         100.3,  88.1,
-  "3_MXM",         120.3,  88.1,
-  "8_VM",          0,      100,
-  "8_VM",          79.9,   86.8,
-  "8_VM",          100.2,  83.9,
-  "8_VM",          120.2,  84,
-  "CSA25-control", 0,      100,
-  "CSA25-control", 100.3,  99.3,
-  "CSA25-control", 110.2,  92.2,
-  "CSA25-control", 120.2,  92.2
-) %>%
-  mutate(surv = sobrevivencia / 100)
+datos_C <- read_csv("../data/survival_7strains.csv", show_col_types = FALSE) %>%
+  mutate(surv = survival / 100)
 
 orden_C <- c("15_CESAIBC", "AT_BV", "1_MXM", "8_VM", "3_MXM",
              "CSA25-control", "Control")
 
-datos_C$serie <- factor(datos_C$serie, levels = orden_C)
+datos_C$series <- factor(datos_C$series, levels = orden_C)
 
 strain_colors_aaas <- c(
   "1_MXM"         = "#3B4992",
@@ -103,22 +73,8 @@ strain_colors_aaas <- c(
 # ============================================================
 # 3. DATOS PANEL D: mortalidad de 3 cepas V. parahaemolyticus
 # ============================================================
-datos_D <- tibble::tribble(
-  ~strain,       ~replica, ~muertos, ~total,
-  "15_CESAIBC",  1,        63,       112,
-  "15_CESAIBC",  2,        61,       110,
-  "15_CESAIBC",  3,        62,       111,
-  "15_CESAIBC",  4,        60,       110,
-  "6_VM",        1,        40,       110,
-  "6_VM",        2,        38,       108,
-  "6_VM",        3,        42,       112,
-  "6_VM",        4,        39,       110,
-  "11_VM",       1,        38,       110,
-  "11_VM",       2,        40,       112,
-  "11_VM",       3,        39,       110,
-  "11_VM",       4,        41,       111
-) %>%
-  mutate(prop_mortalidad = muertos / total * 100,
+datos_D <- read_csv("../data/mortality_3strains.csv", show_col_types = FALSE) %>%
+  mutate(prop_mortalidad = dead / total * 100,
          strain = factor(strain, levels = c("15_CESAIBC", "6_VM", "11_VM")))
 
 # ============================================================
@@ -151,16 +107,16 @@ logrank_pairwise <- function(df) {
 mortalidad_acumulada <- function(df) {
   resumen <- df %>%
     group_by(group) %>%
-    summarise(muertos = sum(status == 1),
-              vivos   = sum(status == 0),
+    summarise(dead = sum(status == 1),
+              alive   = sum(status == 0),
               total   = n(), .groups = "drop") %>%
-    mutate(prop_mortalidad = muertos / total * 100)
+    mutate(prop_mortalidad = dead / total * 100)
   grupos <- levels(df$group)
   pares <- combn(grupos, 2, simplify = FALSE)
   fisher_df <- bind_rows(lapply(pares, function(par) {
     a <- resumen %>% filter(group == par[1])
     b <- resumen %>% filter(group == par[2])
-    m <- matrix(c(a$muertos, a$vivos, b$muertos, b$vivos),
+    m <- matrix(c(a$dead, a$alive, b$dead, b$alive),
                 nrow = 2, byrow = TRUE)
     test <- fisher.test(m)
     data.frame(group1 = par[1], group2 = par[2],
@@ -172,7 +128,7 @@ mortalidad_acumulada <- function(df) {
 }
 
 # ============================================================
-# 5. PANEL A: curvas de sobrevivencia por dosis
+# 5. PANEL A: curvas de survival por dosis
 # ============================================================
 km_df <- km_a_df(df_long)
 km_df$group <- factor(km_df$group, levels = paste0("group=", orden_niveles))
@@ -236,7 +192,7 @@ ma$resumen <- ma$resumen %>%
 p_B <- ggplot(ma$resumen,
               aes(x = group, y = prop_mortalidad, fill = group)) +
   geom_col(color = "black", width = 0.7) +
-  geom_text(aes(label = paste0(muertos, "/", total)),
+  geom_text(aes(label = paste0(dead, "/", total)),
             vjust = -0.5, size = 4) +
   geom_text(aes(label = letter),
             vjust = -2.2, size = 6, fontface = "bold") +
@@ -269,8 +225,8 @@ p_B <- ggplot(ma$resumen,
 # ============================================================
 # 7. PANEL C: curvas de 7 cepas (zoom Y: 50–100%)
 # ============================================================
-p_C <- ggplot(datos_C, aes(x = horas, y = surv,
-                           color = serie, group = serie)) +
+p_C <- ggplot(datos_C, aes(x = hours, y = surv,
+                           color = series, group = series)) +
   geom_step(linewidth = 1.5, alpha = 0.6) +
   geom_point(size = 2, alpha = 0.6) +
   scale_color_manual(values = strain_colors_aaas,
@@ -386,7 +342,7 @@ ggsave("Figura6_ABCD.svg", plot = fig6,
 lr_A <- logrank_pairwise(df_long)
 
 write_csv(lr_A$pairwise, "TablaS_logrank_pairwise_A.csv")
-write_csv(ma$resumen %>% select(group, muertos, vivos, total,
+write_csv(ma$resumen %>% select(group, dead, alive, total,
                                 prop_mortalidad, letter),
           "TablaS_mortalidad_letras_B.csv")
 write_csv(ma$fisher, "TablaS_fisher_pairwise_B.csv")

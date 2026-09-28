@@ -1,0 +1,105 @@
+Strain,ID_Proteina,Funcion
+1_MXM,AAP96373,"NapE del sistema respiratorio de nitrato reductasa periplásmico, es parte de una familia de pequeñas proteínas necesarias para estabilizar los sistemas respiratorios anclados a membranas de ciertas proteobacterias."
+1_MXM,AAO09477,NA
+1_MXM,CAV20250,NA
+1_MXM,BAC94954,NA
+1_MXM,CAV18990,NA
+1_MXM,CAV17302,NA
+1_MXM,BAC59321,integridad de la membrana externa
+1_MXM,BAC61011,NA
+1_MXM,BAC61474,NA
+1_MXM,BAC63044,NA
+1_MXM,BAC61477,NA
+1_MXM,BAC92891,NA
+1_MXM,BAC59023,NA
+1_MXM,BAC62626,NA
+1_MXM,BAC59340,NA
+1_MXM,BAC97591,NA
+1_MXM,BAC94943,NA
+1_MXM,BAC59657,NA
+1_MXM,BAC58283,NA
+1_MXM,CAV26662,NA
+1_MXM,BAC62910,NA
+1_MXM,BAC62910,NA
+1_MXM,CAV26662,NA
+15_CESAIBC,BAC62431,NA
+15_CESAIBC,BAC60519,"Ensamblaje de flagelos, factor de virulencia"
+15_CESAIBC,BAC62821,NA
+15_CESAIBC,BAC61899,NA
+15_CESAIBC,BAC60903,Funciòn hipotètica
+15_CESAIBC,BAC62080,NA
+15_CESAIBC,BAC61737,NA
+15_CESAIBC,BAC61575,NA
+15_CESAIBC,BAC60895,NA
+15_CESAIBC,BAC59593,NA
+15_CESAIBC,BAC62846,NA
+15_CESAIBC,BAC62796,Funciòn hipotètica
+15_CESAIBC,BAC61600,permite a las bacterias romper la barrera epitelial del tracto intestinal y así desplazarse a través del torrente sanguíneo hasta colonizar otros tejidos.
+AT_BV,BAC62917,Transporte de proteìnas en membrana
+AT_BV,BAC63005,"producir CO2 y aminoàcido L -lisina precursor importante para la síntesis de la pared celular de peptidoglicano, proteínas constitutivas y factores de virulencia de las bacterias"
+AT_BV,BAC63003,Transporte de proteìnas en membrana
+AT_BV,BAC63001,Funciòn hipotètica
+AT_BV,BAC96128,Funciòn hipotètica
+AT_BV,BAC62026,Funciòn hipotètica
+AT_BV,BAC96129,Funciòn hipotètica
+AT_BV,BAC58580,transporte de formas raras de azúcares furanosa y uniòn a sustrato reconoce específicamente el tripéptido de mureína derivado de la pared celular bacteriana
+AT_BV,BAC63092,Funciòn hipotètica
+AT_BV,BAC60639,Funciòn hipotètica
+AT_BV,BAC61567,"virulencia y patogénesis de varias bacterias patógenas a través de la importación de moléculas esenciales, como iones metálicos, aminoácidos, péptidos, vitaminas y osmoprotectores, así como la exportación de determinantes virulentos involucrados en Biosíntesis de glicoconjugados y secreción tipo I"
+AT_BV,BAC62959,Funciòn metabolica hidrólisis del almidón y de otras moléculas relacionadas
+AT_BV,BAC60277,"respiración anaeróbica, homologo del arseniato reducatasa"
+AT_BV,BAC96127,Funciòn hipotètica
+AT_BV,BAC61730,"transportadores bacterianos de múltiples fármacos, resistencia bacteriana"
+AT_BV,BAC62932,"transportadores bacterianos de múltiples fármacos, resistencia bacteriana"
+AT_BV,BAC62950,Transcripciòn
+AT_BV,BAC60037,Reducciòn de nitrogeno orgànico y carbono
+AT_BV,BAC58329,Enzima catalitica NAD(+)
+AT_BV,BAC62828,portadores de electrones
+AT_BV,BAC62491,NA
+AT_BV,BAC61477,NA
+AT_BV,BAC62190,Funciòn hipotètica
+AT_BV,BAC61436,Funciòn hipotètica
+AT_BV,BAC61406,Funciòn hipotètica
+AT_BV,BAC60057,NA
+AT_BV,BAC61561,Funciòn hipotètica
+AT_BV,CAV20264,NA
+AT_BV,BAC59921,NA
+AT_BV,BAC59888,Funciòn hipotètica
+AT_BV,BAC62933,NA
+AT_BV,BAC94842,NA
+3_MXM,AAP96373,NA
+8_VM,ABO88327,NA
+8_VM,ABK37213,NA
+8_VM,ABK37920,NA
+8_VM,ABK36070,NA
+8_VM,ABK38267,NA
+8_VM,ABK37802,NA
+8_VM,ABK36462,NA
+8_VM,ABK39124,NA
+8_VM,ABO90776,NA
+8_VM,ABK37335,NA
+8_VM,ABK37319,Proteìna de Membrana cèlular
+8_VM,ABK36407,NA
+8_VM,ABO91176,NA
+8_VM,ABK36433,NA
+8_VM,ABK36314,NA
+8_VM,ABK38511,NA
+8_VM,ABK36859,NA
+8_VM,ABK37728,NA
+8_VM,ABK36859,NA
+9_VM,BAC62760,NA
+10_VM,CAL09441,NA
+10_VM,NA,NA
+10_VM,NA,NA
+10_VM,NA,NA
+10_VM,NA,NA
+10_VM,NA,Funciòn hipotètica
+10_VM,AAS61714,NA
+10_VM,NA,NA
+10_VM,AAS61714,NA
+10_VM,CAL09441,NA
+10_VM,ABO12257,NA
+10_VM,ACB55644,Funciòn hipotètica
+10_VM,AAK03316,NA
+10_VM,AAP96373,NA
+13_VM,ABC32239,NA

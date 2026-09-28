@@ -1,0 +1,11 @@
+Strain,Total_BGC,BGC_Types
+10_VM,16,NI-siderophore:2; NRPS:1; NRPS-like:2; RRE-containing:1; RiPP-like:2; azole-containing-RiPP:1; betalactone:1; cyclic-lactone-autoinducer:1; opine-like-metallophore:2; terpene:2; terpene-precursor:1
+11_VM,6,NI-siderophore:1; RiPP-like:1; arylpolyene:1; betalactone:1; ectoine:1; terpene-precursor:1
+13_VM,9,NAPAA:1; RRE-containing:1; azole-containing-RiPP:1; betalactone:1; ectoine:1; hydrogen-cyanide:1; terpene:1; terpene-precursor:2
+15_CESAIBC,6,NI-siderophore:1; RiPP-like:1; arylpolyene:1; betalactone:1; ectoine:1; terpene-precursor:1
+1_MXM,8,NRP-metallophore:1; NRPS:1; RiPP-like:2; arylpolyene:1; betalactone:1; ectoine:1; terpene-precursor:1
+3_MXM,10,NI-siderophore:1; NRP-metallophore:1; NRPS:1; RiPP-like:1; T3PKS:1; cyclic-lactone-autoinducer:1; lanthipeptide-class-iv:1; terpene:2; terpene-precursor:1
+4_SR,8,NRP-metallophore:1; NRPS:1; RRE-containing:1; RiPP-like:1; cyclic-lactone-autoinducer:1; ectoine:1; terpene-precursor:2
+6_VM,6,NI-siderophore:1; RiPP-like:1; arylpolyene:1; betalactone:1; ectoine:1; terpene-precursor:1
+8_VM,7,NRP-metallophore:1; NRPS:1; RiPP-like:2; arylpolyene:1; hserlactone:1; terpene-precursor:1
+9_VM,7,NI-siderophore:1; T3PKS:1; cyclic-lactone-autoinducer:1; opine-like-metallophore:1; terpene:2; terpene-precursor:1

@@ -1,0 +1,224 @@
+ID,Proteina - ID,Funciòn,1_MXM,6_VM,11_VM,15_CESAIBC,AT_BV,3_MXM,8_VM,9_VM,10_VM,13_VM
+BAC62917,putative membrane transport protein,Transporte de proteìnas en membrana,0,0,0,0,1,0,0,0,0,0
+BAC63005,putative diaminopimelate decarboxylase protein,"producir CO2 y aminoàcido L -lisina precursor importante para la síntesis de la pared celular de peptidoglicano, proteínas constitutivas y factores de virulencia de las bacterias",0,0,0,0,1,0,0,0,0,0
+BAC63003,putative transport protein,Transporte de proteìnas en membrana,0,0,0,0,1,0,0,0,0,0
+BAC63001,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC96128,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC62026,putative arylsulfatase protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC96129,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC58580,"putative thiamine ABC transporter, permease protein",transporte de formas raras de azúcares furanosa y uniòn a sustrato reconoce específicamente el tripéptido de mureína derivado de la pared celular bacteriana,0,0,0,0,1,0,0,0,0,0
+BAC63092,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC60639,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC61567,"putative ABC transporter, ATP-binding protein","virulencia y patogénesis de varias bacterias patógenas a través de la importación de moléculas esenciales, como iones metálicos, aminoácidos, péptidos, vitaminas y osmoprotectores, así como la exportación de determinantes virulentos involucrados en Biosíntesis de glicoconjugados y secreción tipo I",0,0,0,0,1,0,0,0,0,0
+BAC62959,alpha-amylase,Funciòn metabolica hidrólisis del almidón y de otras moléculas relacionadas,0,0,0,0,1,0,0,0,0,0
+BAC60277,"putative tetrathionate reductase, subunit A","respiración anaeróbica, homologo del arseniato reducatasa",0,0,0,0,1,0,0,0,0,0
+BAC96127,conserved hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC61730,"transcriptional regulator, LysR family","transportadores bacterianos de múltiples fármacos, resistencia bacteriana",0,0,0,0,1,0,0,0,0,0
+BAC62932,"transcriptional regulator, LysR family","transportadores bacterianos de múltiples fármacos, resistencia bacteriana",0,0,0,0,1,0,0,0,0,0
+BAC62950,putative transcriptional regulator,Transcripciòn,0,0,0,0,1,0,0,0,0,0
+BAC60037,putative carbon-nitrogen hydrolase,Reducciòn de nitrogeno orgànico y carbono,0,0,0,0,1,0,0,0,0,0
+BAC58329,xanthosine phosphorylase,Enzima catalitica NAD(+),0,0,0,0,1,0,0,0,0,0
+BAC62828,ferredoxin-type protein NapH,portadores de electrones,0,0,0,0,1,0,0,0,0,0
+BAC62491,putative high-affinity branched-chain amino acid transport ATP-binding protein,NA,0,0,0,0,1,0,0,0,0,0
+BAC61477,ABC transporter permease protein,NA,0,0,0,0,1,0,0,0,0,0
+BAC62190,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC61436,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC61406,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC60057,conserved hypothetical protein,NA,0,0,0,0,1,0,0,0,0,0
+BAC61561,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+CAV20264,ribosomal protein L11,NA,0,0,0,0,1,0,0,0,0,0
+BAC59921,low calcium response locus protein H,NA,0,0,0,0,1,0,0,0,0,0
+BAC59888,hypothetical protein,Funciòn hipotètica,0,0,0,0,1,0,0,0,0,0
+BAC62933,conserved hypothetical protein,NA,0,0,0,0,1,0,0,0,0,0
+BAC94842,conserved hypothetical protein,NA,0,0,0,0,1,0,0,0,0,0
+BAC60988,hypothetical protein,Funciòn hipotètica,1,0,0,0,1,0,0,0,0,0
+BAC93806,conserved hypothetical protein,NA,1,0,0,0,1,0,0,0,0,0
+AAP96373,NapE protein,"NapE del sistema respiratorio de nitrato reductasa periplásmico, es parte de una familia de pequeñas proteínas necesarias para estabilizar los sistemas respiratorios anclados a membranas de ciertas proteobacterias.",1,0,0,0,0,0,0,0,0,0
+AAO09477,NADH dehydrogenase subunit II-related protein,NA,1,0,0,0,0,0,0,0,0,0
+CAV20250,DNA-binding protein HU-alpha,NA,1,0,0,0,0,0,0,0,0,0
+ABQ19809,acyl carrier protein,NA,1,0,0,0,1,0,0,0,0,0
+BAC60105,RelB protein,NA,1,0,0,0,1,0,0,0,0,0
+BAC94954,conserved hypothetical protein,NA,1,0,0,0,0,0,0,0,0,0
+CAV18990,putative 6-pyruvoyl tetrahydrobiopterin synthase,NA,1,0,0,0,0,0,0,0,0,0
+CAV17302,ribosomal protein S6,NA,1,0,0,0,0,0,0,0,0,0
+BAC59321,TolR membrane protein,integridad de la membrana externa,1,0,0,0,0,0,0,0,0,0
+BAC58631,mannitol operon repressor,NA,1,0,0,0,1,0,0,0,0,0
+BAC61011,putative fimbrial assembly protein PilO,NA,1,0,0,0,0,0,0,0,0,0
+BAC61474,putative hydroxyethylthiazole kinase,NA,1,0,0,0,0,0,0,0,0,0
+BAC63044,putative transcriptional regulatory protein,NA,1,0,0,0,0,0,0,0,0,0
+BAC61477,ABC transporter permease protein,NA,1,0,0,0,0,0,0,0,0,0
+BAC59423,NapE protein,NapE del sistema respiratorio de nitrato reductasa periplásmico son parte de una familia de pequeñas proteínas necesarias para estabilizar los sistemas respiratorios anclados a membranas de ciertas proteobacterias.,1,1,1,1,1,0,0,0,0,0
+BAC92891,transcriptional regulator,NA,1,0,0,0,0,0,0,0,0,0
+BAC62328,putative formate dehydrogenase,NA,1,0,0,0,1,0,0,0,0,0
+BAC59023,putative chitoporin,NA,1,0,0,0,0,0,0,0,0,0
+BAC62626,putative MFS transporter,NA,1,0,0,0,0,0,0,0,0,0
+BAC59340,"integrase, phage family",NA,1,0,0,0,0,0,0,0,0,0
+BAC58940,gamma-glutamyl phosphate reductase,NA,1,0,0,0,1,0,0,0,0,0
+BAC60897,6-phospho-beta-glucosidase,NA,1,0,0,0,1,0,0,0,0,0
+BAC97591,6-phospho-beta-glucosidase,NA,1,0,0,0,0,0,0,0,0,0
+ACQ59681,Trk system potassium uptake protein TrkA,NA,1,0,0,0,1,0,0,0,0,0
+BAC94943,L-fucose isomerase,NA,1,0,0,0,0,0,0,0,0,0
+BAC59657,putative VgrG protein,NA,1,0,0,0,0,0,0,0,0,0
+BAC58283,alpha-amylase,NA,1,0,0,0,0,0,0,0,0,0
+CAV26662,ABC transporter (IM-ABC),NA,1,0,0,0,0,0,0,0,0,0
+BAC62910,putative pyruvate formate lyase,NA,1,0,0,0,0,0,0,0,0,0
+ABO88327,primosomal protein N',NA,0,0,0,0,0,0,1,0,0,0
+ABK37213,aspartyl-tRNA synthetase,NA,0,0,0,0,0,0,1,0,0,0
+ABK37920,conserved hypothetical protein,NA,0,0,0,0,0,0,1,0,0,0
+ABK36070,"decarboxylase, group II",NA,0,0,0,0,0,0,1,0,0,0
+ABK38267,thiamine monophosphate synthase,NA,0,0,0,0,0,0,1,0,0,0
+ABK37802,nucleoside permease NupC,NA,0,0,0,0,0,0,1,0,0,0
+ABK36462,sugar phosphate permease,NA,0,0,0,0,0,0,1,0,0,0
+ABK39124,"aminotransferase, classes I and II",NA,0,0,0,0,0,0,1,0,0,0
+ABO90776,StbA protein,NA,0,0,0,0,0,0,1,0,0,0
+ABK37335,aspartate--ammonia ligase,NA,0,0,0,0,0,0,1,0,0,0
+ABK37319,membrane lipoprotein,Proteìna de Membrana cèlular,0,0,0,0,0,0,1,0,0,0
+ABK36407,aspartate-semialdehyde dehydrogenase,NA,0,0,0,0,0,0,1,0,0,0
+ABO91176,"isocitrate dehydrogenase, NAD-dependent",NA,0,0,0,0,0,0,1,0,0,0
+ABK36433,orotate phosphoribosyltransferase,NA,0,0,0,0,0,0,1,0,0,0
+ABK36314,"methionine aminopeptidase, type I",NA,0,0,0,0,0,0,1,0,0,0
+ABK38511,"molybdate ABC transporter, permease protein",NA,0,0,0,0,0,0,1,0,0,0
+ABK36859,"arginine ABC transporter, permease protein ArtQ",NA,0,0,0,0,0,0,1,0,0,0
+ABK37728,ferritin,NA,0,0,0,0,0,0,1,0,0,0
+ABK36859,"arginine ABC transporter, permease protein ArtQ",NA,0,0,0,0,0,0,1,0,0,0
+CAL09441,NADH oxidase,NA,0,0,0,0,0,0,0,0,1,0
+NA,CTP synthase,NA,0,0,0,0,0,0,0,0,1,0
+NA,translation elongation factor 1A (EF-1A/EF-Tu),NA,0,0,0,0,0,0,0,0,1,0
+NA,putative pyridoxine biosynthesis protein,NA,0,0,0,0,0,0,0,0,1,0
+NA,putative dihydrofolate reductase,NA,0,0,0,0,0,0,0,0,1,0
+NA,hypothetical protein,Funciòn hipotètica,0,0,0,0,0,0,0,0,1,0
+AAS61714,putative ABC transporter (ATP-binding protein),NA,0,0,0,0,0,0,0,0,1,0
+NA,putative glutathione S-transferase family protein,NA,0,0,0,0,0,0,0,0,1,0
+AAS61714,putative ABC transporter (ATP-binding protein),NA,0,0,0,0,0,0,0,0,1,0
+CAL09441,NADH oxidase,NA,0,0,0,0,0,0,0,0,1,0
+ABO12257,putative dihydrofolate reductase,NA,0,0,0,0,0,0,0,0,1,0
+ACB55644,hypothetical protein,Funciòn hipotètica,0,0,0,0,0,0,0,0,1,0
+AAK03316,unknown,NA,0,0,0,0,0,0,0,0,1,0
+AAP96373,putative pyridoxine biosynthesis protein,NA,0,0,0,0,0,0,0,0,1,0
+BAC59165,putative hemolysin,Citotòxina dependiente de Calcio,0,1,1,1,0,0,0,0,0,0
+BAC61710,"spermidine/putrescine ABC transporter, periplasmic spermidine/putrescine-binding protein",NA,0,0,0,0,1,0,0,1,0,0
+BAC62760,putative glutathione S-transferase family protein,NA,0,0,0,0,0,0,0,1,0,0
+AAP96373,putative pyridoxine biosynthesis protein,NA,0,0,0,0,0,1,0,0,0,0
+ABC32239,uncharacterized protein conserved in bacteria,NA,0,0,0,0,0,0,0,0,0,1
+BAC62431,c-di-GMP phosphodiesterase A-related protein,NA,0,0,0,1,0,0,0,0,0,0
+BAC61153,lysine decarboxylase,NA,1,0,0,1,1,0,0,0,0,0
+BAC60519,flagellar hook-associated protein 2 FlaH,"Ensamblaje de flagelos, factor de virulencia",0,0,0,1,0,0,0,0,0,0
+BAC59495,conserved hypothetical protein,NA,1,1,1,1,1,0,0,0,0,0
+BAC60431,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC59434,"peptide ABC transporter, periplasmic peptide-binding protein",NA,0,1,1,1,0,0,0,0,0,0
+BAC62821,GGDEF family protein and,NA,0,0,0,1,0,0,0,0,0,0
+BAC62023,arylsulfatase,NA,0,0,0,1,1,0,0,0,0,0
+BAC60720,N utilization substance protein A,NA,1,1,1,1,1,0,0,0,0,0
+BAC61899,GGDEF family protein,NA,0,0,0,1,0,0,0,0,0,0
+BAC62786,putative protein secretion protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC60734,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC60903,hypothetical protein,Funciòn hipotètica,0,0,0,1,0,0,0,0,0,0
+BAC62910,putative pyruvate formate lyase,NA,1,0,0,0,0,0,0,0,0,0
+CAV26662,ABC transporter (IM-ABC),NA,1,0,0,0,0,0,0,0,0,0
+BAC62290,"transcriptional regulator, ArsR family",NA,0,1,1,0,0,0,0,0,0,0
+BAC62827,hypothetical protein,Funciòn hipotètica,0,0,0,1,1,0,0,0,0,0
+BAC62080,putative two-component response regulator,NA,0,0,0,1,0,0,0,0,0,0
+BAC62823,conserved hypothetical protein,NA,0,1,1,1,1,0,0,0,0,0
+BAC61411,GGDEF family protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC61737,hypothetical protein,NA,0,0,0,1,0,0,0,0,0,0
+BAC61575,putative transcriptional regulator,NA,0,0,0,1,0,0,0,0,0,0
+BAC61621,putative isopentenyl-diphosphate delta-isomerase,NA,0,1,1,1,0,0,0,0,0,0
+BAC60895,"transcriptional regulator, LacI family",NA,0,0,0,1,0,0,0,0,0,0
+BAC59593,proline racemase,NA,0,0,0,1,0,0,0,0,0,0
+BAC62529,outer membrane protein OmpA,NA,0,1,1,1,0,0,0,0,0,0
+BAC62846,CsuE,NA,0,0,0,1,0,0,0,0,0,0
+BAC59027,outer membrane protein OmpA,NA,0,1,1,1,0,0,0,0,0,0
+BAC61915,putative cation efflux system component,NA,0,1,1,1,0,0,0,0,0,0
+BAC62261,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC61916,"transcriptional regulator, LysR family",NA,0,1,1,1,0,0,0,0,0,0
+BAC59962,transcriptional regulator ExsA,NA,0,1,1,1,0,0,0,0,0,0
+BAC62891,lateral flagellin LafA,NA,0,1,1,1,1,0,0,0,0,0
+BAC59547,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60333,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC62375,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC59075,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60999,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC61646,putative regulatory protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC61847,putative kinase,NA,0,1,1,1,0,0,0,0,0,0
+BAC61936,putative transcriptional regulator,NA,0,1,1,1,1,0,0,0,0,0
+BAC59699,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC61651,conserved hypothetical protein,NA,0,1,1,1,1,0,0,0,0,0
+BAC60215,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC61609,LfgD,NA,0,1,1,1,0,0,0,0,0,0
+BAC60246,putaive two-component response regulator,NA,0,1,1,1,0,0,0,0,0,0
+BAC62554,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60987,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC62789,"putative transcriptional regulator, LuxR family",NA,0,1,1,1,0,0,0,0,0,0
+BAC60973,"transcriptional regulator, LuxR family",NA,0,1,1,1,0,0,0,0,0,0
+BAC62434,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC62943,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60840,sigma-E factor negative regulatory protein RseA,NA,1,1,1,1,0,0,0,0,0,0
+BAC59951,putative type III secretion protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC62190,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC61500,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC59898,putative outer membrane protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC61224,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC62052,HAD superfamily hydrolase,NA,0,1,1,1,0,0,0,0,0,0
+BAC59570,putative alpha-ribazole-5'-phosphate phosphatase CobC,NA,0,1,1,1,0,0,0,0,0,0
+BAC61871,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC62788,putative secreted calcium-binding protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC59014,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC61012,putative fimbrial assembly protein PilN,NA,0,1,1,1,0,0,0,0,0,0
+BAC63066,putative ribosomal protein N-acetyltransferase,NA,0,1,1,1,1,0,0,0,0,0
+BAC60005,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60233,intracellular sepatation protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC60930,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC62979,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC58989,rare lipoprotein B,NA,0,1,1,1,0,0,0,0,0,0
+BAC61893,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60187,thiol:disulfide interchange protein DsbE,NA,0,1,1,1,0,0,0,0,0,0
+BAC58428,TonB system transport protein ExbB2,NA,1,1,1,1,1,0,0,0,0,0
+BAC60202,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC59878,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC58756,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC62796,hypothetical protein,Funciòn hipotètica,0,0,0,1,0,0,0,0,0,0
+BAC60935,nitrogen regulatory IIA protein PtsN,NA,1,1,1,1,1,0,0,0,0,0
+BAC60508,polar flagellar assembly protein FliJ,NA,0,1,1,1,0,0,0,0,0,0
+BAC60883,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,1,0,0
+BAC58504,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC59319,conserved hypothetical protein,NA,0,1,1,1,1,0,0,0,0,0
+BAC59913,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC61486,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC62364,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC62095,glutathione S-transferase-related protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC59808,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC61135,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC61100,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0
+BAC62267,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC59076,putative nitrogen regulatory protein P-II family protein,NA,0,1,1,1,1,0,0,0,0,0
+BAC58572,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC61571,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC59954,type III export protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC61840,"putative regulatory protein, ArsR family",NA,0,1,1,1,0,0,0,0,0,0
+BAC58804,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC62037,conserved hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC59837,hypothetical protein,NA,0,1,1,1,0,0,0,0,0,0
+BAC62541,NapD protein,NA,1,1,1,1,0,0,0,0,0,0
+BAC58828,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0
+BAC60900,"PTS system, cellobiose-specific IIB component",NA,0,1,1,1,0,0,0,0,0,0
+BAC59929,hypothetical protein in type III secretion,NA,0,1,1,1,0,0,0,0,0,0
+BAC61401,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC61622,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0
+BAC61600,hemolysis,permite a las bacterias romper la barrera epitelial del tracto intestinal y así desplazarse a través del torrente sanguíneo hasta colonizar otros tejidos.,0,0,0,1,0,0,0,0,0,0
+BAC62341,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60240,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60160,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC59122,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC62013,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC62424,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0
+BAC62567,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60411,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC62019,hypothetical protein,Funciòn hipotètica,0,1,1,1,1,0,0,0,0,0
+BAC60635,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC58765,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60135,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC58289,hypothetical protein,Funciòn hipotètica,1,1,1,1,0,0,0,0,0,0
+BAC59380,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC59801,FixS-related protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC60003,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0
+BAC58280,hypothetical protein,Funciòn hipotètica,0,1,1,1,0,0,0,0,0,0

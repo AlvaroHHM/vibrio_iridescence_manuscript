@@ -1,74 +1,114 @@
-# Phenotypic and Exploratory Genomic Characterization of Metallic Iridescence in Aquaculture-Associated *Vibrio* Isolates
+# Vibrio iridescence manuscript – reproducibility package
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23005624.svg)](https://doi.org/10.5281/zenodo.23005624)
+This repository contains the R scripts and intermediate data used to generate the figures and supplementary tables of the manuscript:
 
-This repository contains the R scripts and processed data needed to reproduce the statistical analyses and figures presented in the manuscript.
+**Phenotypic and Exploratory Genomic Characterization of Metallic Iridescence in Aquaculture-Associated Vibrio Isolates**
 
-## Structure
+Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., Rocha-Mendoza, I., Hernández-Montiel, A. H., & Giffard-Mena, I.
 
-~~~
-.
-├── data/
-│   ├── processed/       # Processed data used by the scripts
-│   └── raw/             # Raw data (if publicly available)
-├── scripts/
-│   ├── 01_probit_lc50_analysis.R
-│   └── 02_figure6_pathogenicity.R
-└── docs/
-    └── data_dictionary.md
-~~~
+## Origin of this work
 
-## How to reproduce
+This repository contains the code developed for the manuscript above. The code is a derivative work based on the Master's thesis of Fernando Guadalupe Mata Torres:
 
-### Requirements
+> Mata Torres, F. G. (2025). Relación entre la iridiscencia bacteriana y la patogenicidad en cepas aisladas de cultivos acuícolas: un análisis preliminar [Master's thesis]. Universidad Autónoma de Baja California.
 
-- R >= 4.3.0
-- Packages: pzfx, dplyr, tidyr, MASS, boot, survival, ggplot2, cowplot, rstatix, multcompView, readr
+The repository was prepared by Álvaro H. Hernández-Montiel, with contributions from the co-authors. Institutional rights belong to the Universidad Autónoma de Baja California (UABC).
 
-Install dependencies:
+## Requirements
 
-~~~r
-install.packages(c("pzfx", "dplyr", "tidyr", "MASS", "boot",
-                   "survival", "ggplot2", "cowplot",
-                   "rstatix", "multcompView", "readr"))
-~~~
+- R >= 4.3.3
+- Packages: readr, dplyr, tidyr, ggplot2, survival, multcompView, cowplot, rstatix, pheatmap, MASS, boot, pzfx, ggsci, seqinr
 
-### Run
+## Repository structure
 
-~~~bash
-Rscript scripts/01_probit_lc50_analysis.R
-Rscript scripts/02_figure6_pathogenicity.R
-~~~
+- scripts/ — R scripts
+- data/ — Intermediate CSV files
+  - processed/ — Processed data
+  - raw/ — Raw data (empty; raw reads in SRA)
+- figures/ — Generated figures (PNG, PDF, SVG)
+- supplementary_tables/ — Final supplementary tables
+- docs/ — commands.sh, versions_databases.txt, data_dictionary.md
+- LICENSE
+- README.md
 
-## Main results
+## Scripts
 
-- LC50 for 15_CESAIBC: 3.31 x 10^4 CFU/mL (95% CI: 9.48 x 10^3 - 7.34 x 10^5 CFU/mL) at 90.5 h post-exposure, with Abbott's correction for baseline control mortality (19.6%) and bootstrap CI (2000 replicates).
+| Script | Description | Figure/Table |
+|--------|-------------|--------------|
+| 01_probit_lc50_analysis.R | Estimates LC50 and 95% CI by Probit with bootstrap | Figure 6A |
+| 02_figure6_pathogenicity.R | Generates Figure 6 (panels A–D) | Figure 6 |
+| 03_amr_antibiograms.R | Generates antibiograms and AMR heatmap | Figure 4A, 4B |
+| 04_kegg_heatmap.R | Generates KEGG pathway heatmap | Figure S2 |
+| 05_kegg_enrichment.R | KEGG enrichment analysis | Supplementary tables |
+| 06_genome_metrics.R | Generates genome size and quality plots | Figure 5A, 5B |
+| 07_figure5_panels_ABC.R | Generates Figure 5 (panels A, B, C) | Figure 5 |
 
-## Notes on CSA25-control
+## Figures
 
-The isolate CSA25-control (Microbacterium esteraromaticum) was used exclusively as a non-iridescent phenotypic control in plate assays and in vivo bioassays. It was not included in the genomic analyses (pangenomics, AMR, antiSMASH, phylogenetic tree) because its genome will be published independently.
+| File | Description |
+|------|-------------|
+| Figure4_AMR_antibiograms.pdf/png/svg | Antibiograms and AMR heatmap |
+| Figure4B_AMR_heatmap.png | AMR heatmap |
+| Figure5A_genome_size.pdf/png | Genome size |
+| Figure5B_genome_metrics.pdf/png | Genome quality metrics |
+| Figure5C_BGC_heatmap.png | BGC heatmap |
+| Figure5_genome_metrics_BGC.pdf/png/svg | Combined Figure 5 |
+| Figure6_pathogenicity.pdf/png/svg | Pathogenicity bioassays |
 
-## Strain code mapping
+## Supplementary tables
 
-|        Code 1      |    Code 2     | Species |
-|--------------------|---------------|---------|
-| 15_CESAIBC         | VpEMS-15      | Vibrio parahaemolyticus |
-| AT_BV              | Va-H2Oubp     | Vibrio alginolyticus |
-| 6_VM               | Bi-HpVm       | Vibrio parahaemolyticus |
-| 11_VM              | Bi-BrC4       | Vibrio parahaemolyticus |
-| 8_VM               | Bi-HLvm       | Aeromonas sp. |
-| 13_VM              | Bi-E1Fon      | Micrococcus sp. |
-| 1_MXM              | Rb-MM1        | Vibrio sp. |
-| 3_MXM              | Rb-MM3        | Mammaliicoccus sciuri |
-| 9_VM               | Bi-E1-Sup-VM  | Staphylococcus sp. |
-| 10_VM              | Bi-E1-Fon-VM  | Bacillus sp. |
+| File | Description |
+|------|-------------|
+| Table_S3_chitinase_adhesin_pilus.csv | Chitinase, adhesin, and pilus assembly genes |
+| Table_S5_blast_reciprocal_pairs.csv | BLASTp reciprocal pairs |
+| Table_S_AMR.csv | AMR determinants |
+| Table_S_Dunn_pairwise_D.csv | Dunn pairwise comparisons (panel D) |
+| Table_S_eggNOG_annotations.tsv | eggNOG annotations |
+| Table_S_Fisher_pairwise_B.csv | Fisher pairwise comparisons (panel B) |
+| Table_S_GO_enrichment.csv | GO enrichment |
+| Table_S_KEGG.csv | KEGG pathway counts |
+| Table_S_Kruskal_D.csv | Kruskal-Wallis test (panel D) |
+| Table_S_letters_boxplot_D.csv | CLD letters (panel D) |
+| Table_S_logrank_pairwise_A.csv | Log-rank pairwise comparisons (panel A) |
+| Table_S_mortality_letters_B.csv | Mortality letters (panel B) |
+| Table_S_Pangenome_exclusive_15_CESAIBC.csv | Exclusive genes of 15_CESAIBC |
+| Table_S_Pangenome_exclusive_by_strain.csv | Exclusive genes by strain |
+| Table_S_PathogenFinder_annotated.csv | PathogenFinder annotated families |
+| Table_S_PathogenFinder.csv | PathogenFinder predictions |
 
-## Citation
+## How to run
 
-If you use these scripts or data, please cite:
+1. Clone the repository.
+2. Open R in the repository root.
+3. Run scripts in order (01 → 07):
 
-> Mata-Torres FG, Millán-Aguiñaga N, Ugalde J, Torres-Beltrán M, Rocha-Mendoza I, Hernández-Montiel AH, Giffard-Mena I. (2025). *Phenotypic and Exploratory Genomic Characterization of Metallic Iridescence in Aquaculture-Associated Vibrio Isolates*. [Journal name]. DOI: 10.5281/zenodo.23005624
+- Rscript scripts/01_probit_lc50_analysis.R
+- Rscript scripts/02_figure6_pathogenicity.R
+- Rscript scripts/03_amr_antibiograms.R
+- Rscript scripts/04_kegg_heatmap.R
+- Rscript scripts/05_kegg_enrichment.R
+- Rscript scripts/06_genome_metrics.R
+- Rscript scripts/07_figure5_panels_ABC.R
 
-## Contact
+## Data availability
 
-For questions about the analyses, contact: Álvaro Hernández-Montiel (a334571@uabc.edu.mx) or the corresponding author, Dr. Ivone Giffard-Mena (igiffard@uabc.edu.mx).
+Assembled and annotated genomes were deposited in NCBI GenBank under BioProjects:
+
+- PRJNA1497354 (1_MXM)
+- PRJNA1502407 (3_MXM)
+- PRJNA1499907 (6_VM)
+- PRJNA1499920 (11_VM)
+- PRJNA1499939 (15_CESAIBC)
+- PRJNA1502472 (8_VM)
+- PRJNA1502475 (13_VM)
+
+## Code availability
+
+All custom R scripts and intermediate CSV files are available in this repository. The repository is archived at Zenodo under DOI: [TO BE ASSIGNED].
+
+## License
+
+MIT License. See LICENSE for details.
+
+Copyright (c) 2026 Universidad Autónoma de Baja California (UABC).
+Authors: Fernando G. Mata-Torres, Ivone Giffard-Mena, Natalie Millán-Aguiñaga, Álvaro H. Hernández-Montiel, Mónica Torres-Beltrán, Israel Rocha-Mendoza, and contributors.

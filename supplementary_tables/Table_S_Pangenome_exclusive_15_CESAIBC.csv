@@ -1,0 +1,122 @@
+ID,Funciòn,COG_category,Description_eggNOG,GO_terms,KEGG_pathways,PFAMs
+BAC59423,NapE del sistema respiratorio de nitrato reductasa periplásmico son parte de una familia de pequeñas proteínas necesarias para estabilizar los sistemas respiratorios anclados a membranas de ciertas proteobacterias.,C,"COG4459 Periplasmic nitrate reductase system, NapE component",-,-,NapE
+BAC59165,Citotòxina dependiente de Calcio,P,COG1253 Hemolysins and related proteins containing CBS domains,-,-,CBS; CorC_HlyC; DUF21
+BAC62431,,T,COG2199 FOG GGDEF domain,GO:0007154; GO:0007165; GO:0008150; GO:0009987; GO:0023052; GO:0050789; GO:0050794; GO:0050896; GO:0051716; GO:0065007,ko05111; map05111,EAL; GGDEF
+BAC61153,,E,COG1982 Arginine lysine ornithine decarboxylases,-,ko00310; ko00960; ko01100; ko01110; map00310; map00960; map01100; map01110,OKR_DC_1; OKR_DC_1_C; OKR_DC_1_N
+BAC60519,"Ensamblaje de flagelos, factor de virulencia ",N,"morphogenesis and for the elongation of the flagellar filament by facilitating polymerization of the flagellin monomers at the tip of growing filament. Forms a capping structure, which prevents flagellin subunits (transported through the central channel of the flagellum) from leaking out without polymerization at the distal end",GO:0001539; GO:0003674; GO:0005198; GO:0005575; GO:0005576; GO:0005623; GO:0006928; GO:0008150; GO:0009288; GO:0009420; GO:0009421; GO:0009424; GO:0009987; GO:0040011; GO:0042995; GO:0043226; GO:0043228; GO:0044422; GO:0044461; GO:0044463; GO:0044464; GO:0048870; GO:0051179; GO:0051674; GO:0071973; GO:0097588,ko02040; map02040,Flagellin_IN; FliD_C; FliD_N
+BAC59495,,P,transport protein,-,-,Asp-Al_Ex; TrkA_C
+BAC60431,Funciòn hipotètica,M,Small-conductance mechanosensitive channel,-,-,MS_channel
+BAC59434,,E,"COG4166 ABC-type oligopeptide transport system, periplasmic component",-,ko01503; ko02010; map01503; map02010,SBP_bac_5
+BAC62821,,T,COG2199 FOG GGDEF domain,-,-,GGDEF
+BAC62023,,P,Arylsulfatase,-,ko00140; ko00600; map00140; map00600,Sulfatase; Sulfatase_C
+BAC60720,,K,Participates in both transcription termination and antitermination,-,-,HHH_5; KH_5; NusA_N
+BAC61899,,ET,"Bacterial extracellular solute-binding proteins, family 3",-,-,GGDEF; SBP_bac_3
+BAC62786,,M,COG0845 Membrane-fusion protein,-,-,Biotin_lipoyl_2; HlyD; HlyD_3
+BAC60734,,M,COG0739 Membrane proteins related to metalloendopeptidases,-,-,OapA; OapA_N; Peptidase_M23
+BAC60903,Funciòn hipotètica,S,Predicted membrane protein (DUF2254),-,-,DUF2254
+BAC62827,Funciòn hipotètica,P,COG0477 Permeases of the major facilitator superfamily,-,-,MFS_1
+BAC62080,,T,COG0784 FOG CheY-like receiver,-,-,EAL; Response_reg
+BAC62823,,V,multidrug resistance efflux pump,-,-,Biotin_lipoyl_2; HlyD_D23
+BAC61411,,T,COG2199 FOG GGDEF domain,-,ko05111; map05111,GGDEF
+BAC61737,,V,HlyD family secretion protein,-,-,HlyD_3
+BAC61575,,K,helix_turn _helix lactose operon repressor,-,-,LacI; Peripla_BP_3
+BAC61621,,C,"Involved in the biosynthesis of isoprenoids. Catalyzes the 1,3-allylic rearrangement of the homoallylic substrate isopentenyl (IPP) to its allylic isomer, dimethylallyl diphosphate (DMAPP)",-,ko00900; ko01100; ko01110; ko01130; map00900; map01100; map01110; map01130,FMN_dh
+BAC60895,,K,"Transcriptional regulator, LacI family",-,-,LacI; Peripla_BP_3
+BAC59593,,E,Belongs to the proline racemase family,-,ko00330; map00330,Pro_racemase
+BAC62529,,M,Belongs to the ompA family,-,-,OMP_b-brl; OmpA; OmpA_membrane
+BAC62846,,S,spore coat U domain protein,-,-,SCPU
+BAC59027,,M,Belongs to the ompA family,-,-,OmpA; OmpA_membrane
+BAC61915,,P,Co Zn Cd cation transporters,-,-,Cation_efflux
+BAC62261,Funciòn hipotètica,S,Protein of unknown function (DUF2861),-,-,DUF2861
+BAC61916,,K,Transcriptional regulator,-,-,HTH_1; LysR_substrate
+BAC59962,,K,"helix_turn_helix, arabinose operon control protein",-,ko02025; map02025,HTH_18
+BAC62891,,N,Flagellin is the subunit protein which polymerizes to form the filaments of bacterial flagella,GO:0005575; GO:0005576; GO:0005623; GO:0009288; GO:0042995; GO:0043226; GO:0043228; GO:0044464,ko02020; ko02040; ko04621; ko04626; ko05132; ko05134; map02020; map02040; map04621; map04626; map05132; map05134,Flagellin_C; Flagellin_N
+BAC59547,Funciòn hipotètica,K,Transcriptional regulator,-,-,HTH_26
+BAC60333,Funciòn hipotètica,-,-,-,-,-
+BAC62375,Funciòn hipotètica,S,ImpE protein,-,-,ImpE
+BAC59075,Funciòn hipotètica,S,Protein of unknown function (DUF1538),-,-,DUF1538
+BAC60999,,M,salt-induced outer membrane protein,-,-,DUF481
+BAC61646,,K,DeoR C terminal sensor domain,-,-,DeoRC; HTH_DeoR
+BAC61847,,H,Phosphoribulokinase / Uridine kinase family,-,-,PRK
+BAC61936,,K,Transcriptional regulator,-,-,HTH_11; HTH_20; HTH_IclR; IclR
+BAC59699,Funciòn hipotètica,L,3-methyladenine DNA glycosylase,-,-,Adenine_glyco
+BAC61651,,F,COG1051 ADP-ribose pyrophosphatase,-,-,NUDIX
+BAC60215,Funciòn hipotètica,Q,Haemolysin-type calcium-binding repeat (2 copies),-,-,HemolysinCabind
+BAC61609,,N,Required for flagellar hook formation. May act as a scaffolding protein,-,ko02040; map02040,FLgD_tudor; FlgD; FlgD_ig
+BAC60246,,K,COG0745 Response regulators consisting of a CheY-like receiver domain and a winged-helix DNA-binding domain,-,-,Response_reg; Trans_reg_C
+BAC62554,Funciòn hipotètica,-,-,-,-,SH3_3
+BAC60987,Funciòn hipotètica,M,"Has lipid A 3-O-deacylase activity. Hydrolyzes the ester bond at the 3 position of lipid A, a bioactive component of lipopolysaccharide (LPS), thereby releasing the primary fatty acyl moiety",-,-,OMP_b-brl
+BAC62789,,K,"helix_turn_helix, Lux Regulon",-,-,GerE
+BAC60973,,K,COG2197 Response regulator containing a CheY-like receiver domain and an HTH DNA-binding domain,-,ko02026; map02026,GerE
+BAC62434,Funciòn hipotètica,S,"L,D-transpeptidase catalytic domain",-,-,YkuD_2
+BAC62943,Funciòn hipotètica,U,UPF0056 membrane protein,-,-,MarC
+BAC60840,,T,"An anti-sigma factor for extracytoplasmic function (ECF) sigma factor sigma-E (RpoE). ECF sigma factors are held in an inactive form by an anti-sigma factor until released by regulated intramembrane proteolysis (RIP). RIP occurs when an extracytoplasmic signal triggers a concerted proteolytic cascade to transmit information and elicit cellular responses. The membrane-spanning regulatory substrate protein is first cut periplasmically (site-1 protease, S1P, DegS), then within the membrane itself (site-2 protease, S2P, RseP), while cytoplasmic proteases finish degrading the anti-sigma factor, liberating sigma-E",-,-,RseA_C; RseA_N
+BAC59951,,NU,HrpE/YscL/FliH and V-type ATPase subunit E,-,ko03070; map03070,FliH
+BAC62190,Funciòn hipotètica,-,-,-,-,-
+BAC61500,Funciòn hipotètica,S,Putative PepSY_TM-like,-,-,PepSY_TM_like_2
+BAC59898,,M,Belongs to the ompA family,-,-,OmpA
+BAC61224,,S,YhhN family,-,-,YhhN
+BAC62052,,S,hydrolase (HAD superfamily),-,-,HAD_2
+BAC59570,,G,"COG0406 Fructose-2,6-bisphosphatase",-,ko00860; ko01100; map00860; map01100,His_Phos_1
+BAC61871,,Q,"COG0179 2-keto-4-pentenoate hydratase 2-oxohepta-3-ene-1,7-dioic acid hydratase (catechol pathway)",-,-,FAA_hydrolase
+BAC62788,,Q,Haemolysin-type calcium-binding repeat (2 copies),-,-,HemolysinCabind
+BAC59014,,S,protein conserved in bacteria,-,-,Smr
+BAC61012,,NU,assembly protein PilN,-,-,PilN
+BAC63066,,J,"COG1670 Acetyltransferases, including N-acetylases of ribosomal proteins",-,-,Acetyltransf_3
+BAC60005,Funciòn hipotètica,-,-,-,-,-
+BAC60233,,D,probably involved in intracellular septation,-,-,IspA
+BAC60930,Funciòn hipotètica,S,Involved in the assembly of lipopolysaccharide (LPS). Required for the translocation of LPS from the inner membrane to the outer membrane. Facilitates the transfer of LPS from the inner membrane to the periplasmic protein LptA. Could be a docking site for LptA,-,-,LptC
+BAC62979,Funciòn hipotètica,-,-,-,-,-
+BAC58989,,M,"Together with LptD, is involved in the assembly of lipopolysaccharide (LPS) at the surface of the outer membrane. Required for the proper assembly of LptD. Binds LPS and may serve as the LPS recognition site at the outer membrane",-,-,LptE
+BAC61893,Funciòn hipotètica,-,-,-,-,-
+BAC60187,,CO,Thiol disulfide interchange protein dsbE,-,-,Redoxin
+BAC58428,,U,TonB system transport protein ExbB2,-,-,MotA_ExbB
+BAC60202,,E,Glycine cleavage system regulatory protein,-,-,ACT_6
+BAC59878,Funciòn hipotètica,Q,Domain of unknown function (DUF4442),-,-,DUF4442
+BAC58756,,-,-,-,-,-
+BAC62796,Funciòn hipotètica,S,Domain of unknown function (DUF4381),-,-,DUF4381
+BAC60935,,G,Phosphotransferase system mannitol fructose-specific IIA domain (Ntr-type),-,ko02060; map02060,PTS_EIIA_2
+BAC60508,,N,COG2882 Flagellar biosynthesis chaperone,-,ko02040; map02040,FliJ
+BAC60883,Funciòn hipotètica,S,Domain of unknown function (DUF4426),-,-,DUF4426
+BAC58504,,S,Protein of unknown function (DUF805),-,-,DUF805
+BAC59319,,S,Thioesterase-like superfamily,-,-,4HBT
+BAC59913,,S,"Evidence 3 Function proposed based on presence of conserved amino acid motif, structural feature or limited homology",-,-,GFA
+BAC61486,,S,Protein of unknown function (DUF2810),-,-,DUF2810
+BAC62364,Funciòn hipotètica,S,Cystatin domain,-,-,Cystatin
+BAC62095,,S,"relative of glutathione S-transferase, MAPEG superfamily",-,-,MAPEG
+BAC59808,Funciòn hipotètica,-,-,-,-,-
+BAC61135,Funciòn hipotètica,-,-,-,-,-
+BAC61100,Funciòn hipotètica,S,VanZ like family,-,-,VanZ
+BAC62267,Funciòn hipotètica,S,Late competence development protein ComFB,-,-,ComFB
+BAC59076,,K,Belongs to the P(II) protein family,-,-,-
+BAC58572,,S,"Gamma-glutamyl cyclotransferase, AIG2-like",-,-,GGACT
+BAC61571,Funciòn hipotètica,-,-,-,-,-
+BAC59954,,S,"Type III secretion basal body protein I, YscI, HrpB, PscI",-,-,T3SS_basalb_I
+BAC61840,,K,transcriptional regulators,-,-,HTH_20; HTH_5
+BAC58804,,S,Protein of unknown function (DUF2799),-,-,DUF2799
+BAC62037,,S,Bacterial OB fold (BOF) protein,-,-,BOF
+BAC59837,,-,-,-,-,-
+BAC62541,,P,protein involved in formation of periplasmic nitrate reductase,-,-,NapD
+BAC58828,Funciòn hipotètica,-,-,-,-,-
+BAC60900,,G,COG1440 Phosphotransferase system cellobiose-specific component IIB,-,ko00500; ko02060; map00500; map02060,PTS_IIB
+BAC59929,,S,TyeA,-,-,TyeA
+BAC61401,Funciòn hipotètica,-,-,-,-,-
+BAC61622,Funciòn hipotètica,S,Protein of unknown function (DUF3012),-,-,DUF3012
+BAC61600,permite a las bacterias romper la barrera epitelial del tracto intestinal y así desplazarse a través del torrente sanguíneo hasta colonizar otros tejidos.,S,Hemolysin,-,-,DUF333
+BAC62341,Funciòn hipotètica,-,-,-,-,-
+BAC60240,Funciòn hipotètica,S,Domain of unknown function (DUF4250),-,-,DUF4250
+BAC60160,Funciòn hipotètica,-,-,-,-,-
+BAC59122,Funciòn hipotètica,S,FeoC like transcriptional regulator,-,-,FeoC
+BAC62013,Funciòn hipotètica,-,-,-,-,-
+BAC62424,Funciòn hipotètica,-,-,-,-,-
+BAC62567,Funciòn hipotètica,-,-,-,-,-
+BAC60411,Funciòn hipotètica,-,-,-,-,-
+BAC62019,Funciòn hipotètica,-,-,-,-,-
+BAC60635,Funciòn hipotètica,-,-,-,-,-
+BAC58765,Funciòn hipotètica,S,Protein of unknown function (DUF3545),-,-,DUF3545
+BAC60135,Funciòn hipotètica,-,-,-,-,-
+BAC58289,Funciòn hipotètica,-,-,-,-,-
+BAC59380,Funciòn hipotètica,-,-,-,-,-
+BAC59801,Funciòn hipotètica,P,"protein, possibly involved in nitrogen fixation",-,-,FixS
+BAC60003,Funciòn hipotètica,-,-,-,-,-
+BAC58280,Funciòn hipotètica,-,-,-,-,-

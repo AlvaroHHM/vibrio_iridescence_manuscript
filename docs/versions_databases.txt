@@ -1,0 +1,12 @@
+R 4.3.3
+SPAdes 3.15.5
+Bakta 1.9.4
+GTDB-Tk 2.3.2
+autoMLST2 (2025)
+PathogenFinder 1.4
+ResFinder 4.0
+KmerResistance 2.2
+AMRFinderPlus 4.1
+antiSMASH 6.0
+eggNOG-mapper 2.1.12
+BLAST+ 2.15
