@@ -1,0 +1,15 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Data
+*.pzfx
+data/raw/*.fna
+data/raw/*.gff
+
+# System
+.DS_Store
+Thumbs.db
+*.log
