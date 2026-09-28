@@ -40,13 +40,9 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 
 | File | Description |
 |------|-------------|
-| Figure4_AMR_antibiograms.pdf/png/svg | Antibiograms and AMR heatmap |
-| Figure4B_AMR_heatmap.png | AMR heatmap |
-| Figure5A_genome_size.pdf/png | Genome size |
-| Figure5B_genome_metrics.pdf/png | Genome quality metrics |
-| Figure5C_BGC_heatmap.png | BGC heatmap |
-| Figure5_genome_metrics_BGC.pdf/png/svg | Combined Figure 5 |
-| Figure6_pathogenicity.pdf/png/svg | Pathogenicity bioassays |
+| `Figure4_AMR_antibiograms.png` | Antibiograms and AMR heatmap (panels A and B) |
+| `Figure5_genome_metrics_BGC.png` | Genome size, quality metrics, and BGC heatmap (panels A, B, C) |
+| `Figure6_pathogenicity.png` | Pathogenicity bioassays (panels A–D) |
 
 ## Supplementary tables
 
