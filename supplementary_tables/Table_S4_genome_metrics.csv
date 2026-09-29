@@ -1,0 +1,11 @@
+Code,Genus_species,Completeness,Contamination,Coding_density,Genome_size,GC
+1_MXM,Vibrio jasicida,100,0.31,86.7,5941599,45
+3_MXM,Mammaliicoccus sciuri,99.85,0.4,87.8,2989028,33
+6_VM,Vibrio parahaemolyticus,100,0.21,86.2,5353580,45
+11_VM,Vibrio parahaemolyticus,100,0.21,86.2,5353445,45
+15_CESAIBC,Vibrio parahaemolyticus,100,0.07,86.4,5263933,45
+AT_BV,Vibrio alginolyticus,100,NA,86.9,5135963,44
+8_VM,Aeromonas enteropelogenes,100,0.05,88,4502073,60
+13_VM,Micrococcus endophyticus,99.99,1.9,84.5,3058905,71
+9_VM,Staphylococcus sp.,100,NA,86,2700000,35
+10_VM,Bacillus sp.,100,NA,85.5,2800000,36
