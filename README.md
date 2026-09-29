@@ -28,13 +28,14 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 
 | Script | Description | Figure/Table |
 |--------|-------------|--------------|
-| 01_probit_lc50_analysis.R | Estimates LC50 and 95% CI by Probit with bootstrap | Figure 6A |
-| 02_figure6_pathogenicity.R | Generates Figure 6 (panels A–D) | Figure 6 |
-| 03_amr_antibiograms.R | Generates antibiograms and AMR heatmap | Figure 4A, 4B |
-| 04_kegg_heatmap.R | Generates KEGG pathway heatmap | Figure S2 |
-| 05_kegg_enrichment.R | KEGG enrichment analysis | Supplementary tables |
-| 06_genome_metrics.R | Generates genome size and quality plots | Figure 5A, 5B |
-| 07_figure5_panels_ABC.R | Generates Figure 5 (panels A, B, C) | Figure 5 |
+| `01_probit_lc50_analysis.R` | Estimates LC50 and 95% CI by Probit with bootstrap | Figure 6A |
+| `02_figure6_pathogenicity.R` | Generates Figure 6 (panels A–D) | Figure 6 |
+| `03_amr_antibiograms.R` | Generates antibiograms and AMR heatmap | Figure 4A, 4B |
+| `04_kegg_heatmap.R` | Generates KEGG pathway heatmap | Figure S2 |
+| `05_kegg_enrichment.R` | KEGG enrichment analysis | Supplementary tables |
+| `06_genome_metrics.R` | Generates genome size and quality plots | Figure 5A, 5B |
+| `07_figure5_panels_ABC.R` | Generates Figure 5 (panels A, B, C) | Figure 5 |
+| `08_go_enrichment_figure.R` | Generates Figure S1 (GO enrichment) | Figure S1 |
 
 ## Figures
 
@@ -43,6 +44,8 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 | `Figure4_AMR_antibiograms.pdf` | Antibiograms and AMR heatmap (panels A and B) |
 | `Figure5_genome_metrics_BGC.pdf` | Genome size, quality metrics, and BGC heatmap (panels A, B, C) |
 | `Figure6_pathogenicity.pdf` | Pathogenicity bioassays (panels A–D) |
+| `FigureS1_GO_enrichment.pdf` | GO enrichment across strains (top 3 terms per strain, supplementary) |
+| `FigureS2_KEGG_heatmap.pdf` | KEGG pathway heatmap (supplementary) |
 
 ## Supplementary tables
 
@@ -78,6 +81,7 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 - Rscript scripts/05_kegg_enrichment.R
 - Rscript scripts/06_genome_metrics.R
 - Rscript scripts/07_figure5_panels_ABC.R
+| `08_go_enrichment_figure.R` | Generates Figure S1 (GO enrichment) | Figure S1 |
 
 ## Data availability
 
