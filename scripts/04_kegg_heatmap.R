@@ -1,7 +1,9 @@
 #!/usr/bin/env Rscript
-# heatmap_kegg_seleccion.R
-# Heatmap de rutas KEGG seleccionadas (solo bloques de interés)
-# con etiquetas cortas en eje Y y anotación de grupo correcta.
+# ============================================================
+# 04_kegg_heatmap.R
+# KEGG pathway heatmap for selected functional blocks
+# Uses only map identifiers (M) to avoid duplication with ko (K)
+# ============================================================
 
 suppressPackageStartupMessages({
   library(readr)
@@ -11,20 +13,15 @@ suppressPackageStartupMessages({
   library(tibble)
 })
 
-# setwd() eliminado; usar here::here() o ruta relativa
-
 # ------------------------------------------------------------
-# 1. Grupos de interés y colores
+# 1. Functional groups (only map identifiers)
 # ------------------------------------------------------------
-groups_interes <- list(
+groups_interest <- list(
   "Cellular processes (virulence, secretion, biofilm)" = c(
-    "ko02010","map02010","ko02020","map02020","ko02024","map02024",
-    "ko02025","map02025","ko02026","map02026","ko02040","map02040",
-    "ko02060","map02060","ko03010","map03010","ko03070","map03070",
-    "ko03440","map03440","ko04973","map04973"),
+    "map02010", "map02020", "map02024", "map02025", "map02026",
+    "map02040", "map02060", "map03010", "map03070", "map03440", "map04973"),
   "Pathogenicity and host-bacteria interactions" = c(
-    "ko05111","map05111","ko05132","map05132","ko05134","map05134",
-    "ko04621","map04621","ko04626","map04626","ko01503","map01503")
+    "map05111", "map05132", "map05134", "map04621", "map04626", "map01503")
 )
 
 group_colors <- c(
@@ -32,67 +29,67 @@ group_colors <- c(
   "Pathogenicity and host-bacteria interactions" = "#9467bd"
 )
 
-# Crear vector de grupo para cada código
-todos_codigos <- unlist(groups_interes, use.names = FALSE)
-grupo_asignado <- rep(names(groups_interes), times = sapply(groups_interes, length))
-names(grupo_asignado) <- todos_codigos
+# Assign group to each code
+all_codes <- unlist(groups_interest, use.names = FALSE)
+group_assigned <- rep(names(groups_interest), times = sapply(groups_interest, length))
+names(group_assigned) <- all_codes
 
 # ------------------------------------------------------------
-# 2. Leer matriz de conteo de rutas KEGG
+# 2. Load KEGG pathway count matrix
 # ------------------------------------------------------------
-archivo_kegg <- "conteo_rutas_KEGG.csv"
-if (!file.exists(archivo_kegg)) {
-  stop("No se encontró ", archivo_kegg,
-       ". Genera primero 'conteo_rutas_KEGG.csv'.")
+kegg_file <- "../data/kegg_pathway_counts.csv"
+if (!file.exists(kegg_file)) {
+  stop("File not found: ", kegg_file,
+       ". Please ensure kegg_pathway_counts.csv is in data/.")
 }
 
-datos_kegg <- read_delim(archivo_kegg, delim = ",", col_names = TRUE, show_col_types = FALSE) %>%
+kegg_data <- read_delim(kegg_file, delim = ",", col_names = TRUE, show_col_types = FALSE) %>%
   column_to_rownames(var = names(.)[1])
 
 # ------------------------------------------------------------
-# 3. Filtrar solo las rutas de interés
+# 3. Filter selected pathways (only map)
 # ------------------------------------------------------------
-rutas_presentes <- intersect(todos_codigos, rownames(datos_kegg))
-if (length(rutas_presentes) == 0) {
-  stop("Ninguna de las rutas seleccionadas está en el CSV.")
+pathways_present <- intersect(all_codes, rownames(kegg_data))
+if (length(pathways_present) == 0) {
+  stop("None of the selected map pathways are in the CSV.")
 }
 
-matriz <- datos_kegg[rutas_presentes, , drop = FALSE]
+mat <- kegg_data[pathways_present, , drop = FALSE]
 
-# Ordenar por grupo y código
-grupo_fila <- grupo_asignado[rownames(matriz)]
-matriz <- matriz[order(grupo_fila, rownames(matriz)), , drop = FALSE]
-grupo_fila <- grupo_asignado[rownames(matriz)]
+# Sort by group and code
+row_group <- group_assigned[rownames(mat)]
+mat <- mat[order(row_group, rownames(mat)), , drop = FALSE]
+row_group <- group_assigned[rownames(mat)]
 
 # ------------------------------------------------------------
-# 4. Crear anotación de filas (usando nombres originales)
+# 4. Row annotation
 # ------------------------------------------------------------
-annotation_row <- data.frame(Group = grupo_fila, row.names = rownames(matriz))
+annotation_row <- data.frame(Group = row_group, row.names = rownames(mat))
 ann_colors <- list(Group = group_colors)
 
 # ------------------------------------------------------------
-# 5. Etiquetas cortas para el eje Y (solo para visualización)
+# 5. Short labels for Y-axis (M02010, M02020, ...)
 # ------------------------------------------------------------
-etiquetas_cortas <- sub("^ko", "K", rownames(matriz))   # koXXXXX -> KXXXXX
-etiquetas_cortas <- sub("^map", "M", etiquetas_cortas)   # mapXXXXX -> MXXXXX
+short_labels <- sub("^map", "M", rownames(mat))
 
 # ------------------------------------------------------------
-# 6. Heatmap compacto
+# 6. Generate heatmap (PDF)
 # ------------------------------------------------------------
-pheatmap(matriz,
+pheatmap(mat,
          color = colorRampPalette(c("white", "#67001f"))(100),
          cluster_rows = FALSE,
          cluster_cols = TRUE,
          annotation_row = annotation_row,
          annotation_colors = ann_colors,
-         labels_row = etiquetas_cortas,     # <-- clave para etiquetas cortas
-         main = "Rutas KEGG relevantes en proteínas patógenas",
-         filename = "heatmap_kegg_seleccion.png",
-         width = 10,          
-         height = 7,          
-         fontsize_row = 7,
-         fontsize_col = 7,  
-         angle_col = 45,     
+         labels_row = short_labels,
+         main = "KEGG pathways relevant to pathogenic proteins",
+         filename = "FigureS2_KEGG_heatmap.pdf",
+         width = 10,
+         height = 7,
+         fontsize_row = 8,
+         fontsize_col = 8,
+         angle_col = 45,
          cellwidth = 12,
-         cellheight = 10,
-         dpi = 300)
+         cellheight = 10)
+
+message("✅ FigureS2_KEGG_heatmap.pdf generated (only map identifiers)")
