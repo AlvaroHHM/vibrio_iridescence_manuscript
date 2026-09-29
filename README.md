@@ -6,7 +6,6 @@ This repository contains the R scripts and intermediate data used to generate th
 
 Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., Rocha-Mendoza, I., Hernández-Montiel, A. H., & Giffard-Mena, I.
 
-
 ## Requirements
 
 - R >= 4.3.3
@@ -18,7 +17,7 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 - data/ — Intermediate CSV files
   - processed/ — Processed data
   - raw/ — Raw data (empty; raw reads in SRA)
-- figures/ — Generated figures (PNG, PDF, SVG)
+- figures/ — Generated figures (PDF)
 - supplementary_tables/ — Final supplementary tables
 - docs/ — commands.sh, versions_databases.txt, data_dictionary.md
 - LICENSE
@@ -35,7 +34,7 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 | `05_kegg_enrichment.R` | KEGG enrichment analysis | Supplementary tables |
 | `06_genome_metrics.R` | Generates genome size and quality plots | Figure 5A, 5B |
 | `07_figure5_panels_ABC.R` | Generates Figure 5 (panels A, B, C) | Figure 5 |
-| `08_go_enrichment_figure.R` | Generates Figure S1 (GO enrichment) | Figure S1 |
+| `08_go_enrichment_figure.R` | Generates GO enrichment heatmap across strains | Figure S1 |
 
 ## Figures
 
@@ -44,35 +43,30 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 | `Figure4_AMR_antibiograms.pdf` | Antibiograms and AMR heatmap (panels A and B) |
 | `Figure5_genome_metrics_BGC.pdf` | Genome size, quality metrics, and BGC heatmap (panels A, B, C) |
 | `Figure6_pathogenicity.pdf` | Pathogenicity bioassays (panels A–D) |
-| `FigureS1_GO_enrichment.pdf` | GO enrichment across strains (top 3 terms per strain, supplementary) |
+| `FigureS1_GO_enrichment.pdf` | GO enrichment across strains (top 3 terms per strain) |
 | `FigureS2_KEGG_heatmap.pdf` | KEGG pathway heatmap (supplementary) |
 
 ## Supplementary tables
 
 | File | Description |
 |------|-------------|
-| Table_S3_chitinase_adhesin_pilus.csv | Chitinase, adhesin, and pilus assembly genes |
-| Table_S5_blast_reciprocal_pairs.csv | BLASTp reciprocal pairs |
-| Table_S_AMR.csv | AMR determinants |
-| Table_S_Dunn_pairwise_D.csv | Dunn pairwise comparisons (panel D) |
-| Table_S_eggNOG_annotations.tsv | eggNOG annotations |
-| Table_S_Fisher_pairwise_B.csv | Fisher pairwise comparisons (panel B) |
-| Table_S_GO_enrichment.csv | GO enrichment |
-| Table_S_KEGG.csv | KEGG pathway counts |
-| Table_S_Kruskal_D.csv | Kruskal-Wallis test (panel D) |
-| Table_S_letters_boxplot_D.csv | CLD letters (panel D) |
-| Table_S_logrank_pairwise_A.csv | Log-rank pairwise comparisons (panel A) |
-| Table_S_mortality_letters_B.csv | Mortality letters (panel B) |
-| Table_S_Pangenome_exclusive_15_CESAIBC.csv | Exclusive genes of 15_CESAIBC |
-| Table_S_Pangenome_exclusive_by_strain.csv | Exclusive genes by strain |
-| Table_S_PathogenFinder_annotated.csv | PathogenFinder annotated families |
-| Table_S_PathogenFinder.csv | PathogenFinder predictions |
+| `Table_S1_sequencing_stats.csv` | Sequencing and assembly statistics |
+| `Table_S2_biolog_geniii.csv` | Biolog Gen III biochemical identification |
+| `Table_S3_chitinase_adhesin_pilus.csv` | Chitinase, adhesin, and pilus assembly genes |
+| `Table_S4_genome_metrics.csv` | Genome size, GC, completeness, contamination |
+| `Table_S5_blast_reciprocal_pairs.csv` | BLASTp reciprocal pairs |
+| `Table_S6_AMR.csv` | AMR determinants |
+| `Table_S7_PathogenFinder.csv` | PathogenFinder predictions |
+| `Table_S8_PathogenFinder_annotated.csv` | PathogenFinder annotated families |
+| `Table_S9_KEGG_pathway_counts.csv` | KEGG pathway counts |
+| `Table_S10_GO_enrichment.csv` | GO enrichment |
+| `Table_S11_eggNOG_annotations.tsv` | eggNOG annotations |
 
 ## How to run
 
 1. Clone the repository.
 2. Open R in the repository root.
-3. Run scripts in order (01 → 07):
+3. Run scripts in order (01 → 08):
 
 - Rscript scripts/01_probit_lc50_analysis.R
 - Rscript scripts/02_figure6_pathogenicity.R
@@ -81,7 +75,7 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 - Rscript scripts/05_kegg_enrichment.R
 - Rscript scripts/06_genome_metrics.R
 - Rscript scripts/07_figure5_panels_ABC.R
-| `08_go_enrichment_figure.R` | Generates Figure S1 (GO enrichment) | Figure S1 |
+- Rscript scripts/08_go_enrichment_figure.R
 
 ## Data availability
 
