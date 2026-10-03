@@ -77,21 +77,9 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 - Rscript scripts/07_figure5_panels_ABC.R
 - Rscript scripts/08_go_enrichment_figure.R
 
-## Data availability
+## Data and code availability
 
-Assembled and annotated genomes were deposited in NCBI GenBank under BioProjects:
-
-- PRJNA1497354 (1_MXM)
-- PRJNA1502407 (3_MXM)
-- PRJNA1499907 (6_VM)
-- PRJNA1499920 (11_VM)
-- PRJNA1499939 (15_CESAIBC)
-- PRJNA1502472 (8_VM)
-- PRJNA1502475 (13_VM)
-
-## Code availability
-
-All custom R scripts and intermediate CSV files are available in this repository. The repository is archived at Zenodo under DOI: [TO BE ASSIGNED].
+Assembled and annotated genomes have been deposited in NCBI GenBank under BioProjects PRJNA1497354, PRJNA1502407, PRJNA1499907, PRJNA1499920, PRJNA1499939, PRJNA1502400, PRJNA1502472, PRJNA1502475, PRJNA1502480, and PRJNA1502481. Individual BioSample, WGS, and Assembly accession numbers—distinguishing the seven publicly released genomes from the three entries currently in final NCBI processing (AT_BV, 9_VM, and 10_VM)—are fully detailed in Table 1 and Table S1. All analytical R scripts, command-line execution parameters, raw bioassay datasets, GraphPad Prism files (.pzfx), antiSMASH output files, BLAST alignment matrices, metadata, colony image datasets, and supplementary files are publicly maintained in GitHub (AlvaroHHM/vibrio_iridescence_manuscript) and permanently archived in Zenodo at DOI: 10.5281/zenodo.23029010.
 
 ## License
 
