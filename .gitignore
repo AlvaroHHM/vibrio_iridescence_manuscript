@@ -13,3 +13,9 @@ data/raw/*.gff
 .DS_Store
 Thumbs.db
 *.log
+
+# Utility scripts (not part of the reproducible pipeline)
+move_svgs.sh
+run_all_and_push.R
+update_to_svg.sh
+*.bak
