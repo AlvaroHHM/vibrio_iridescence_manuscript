@@ -1,0 +1,21 @@
+Gene,Locus,Strain,Present,Identity,Coverage,Evalue
+Arylsulfatase,BAC62023,15_CESAIBC,Yes,>90%,>70%,<1e-5
+Arylsulfatase,BAC62023,AT_BV,Yes,>90%,>70%,<1e-5
+Arylsulfatase,NA,1_MXM,No,NA,NA,NA
+Arylsulfatase,NA,3_MXM,No,NA,NA,NA
+Arylsulfatase,NA,6_VM,No,NA,NA,NA
+Arylsulfatase,NA,8_VM,No,NA,NA,NA
+Arylsulfatase,NA,11_VM,No,NA,NA,NA
+Arylsulfatase,NA,13_VM,No,NA,NA,NA
+Arylsulfatase,NA,9_VM,No,NA,NA,NA
+Arylsulfatase,NA,10_VM,No,NA,NA,NA
+MFS permease,BAC62827,15_CESAIBC,Yes,>90%,>70%,<1e-5
+MFS permease,BAC62827,AT_BV,Yes,>90%,>70%,<1e-5
+MFS permease,NA,1_MXM,No,NA,NA,NA
+MFS permease,NA,3_MXM,No,NA,NA,NA
+MFS permease,NA,6_VM,No,NA,NA,NA
+MFS permease,NA,8_VM,No,NA,NA,NA
+MFS permease,NA,11_VM,No,NA,NA,NA
+MFS permease,NA,13_VM,No,NA,NA,NA
+MFS permease,NA,9_VM,No,NA,NA,NA
+MFS permease,NA,10_VM,No,NA,NA,NA

@@ -40,11 +40,11 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 
 | File | Description |
 |------|-------------|
-| `Figure4_AMR_antibiograms.pdf` | Antibiograms and AMR heatmap (panels A and B) |
-| `Figure5_genome_metrics_BGC.pdf` | Genome size, quality metrics, and BGC heatmap (panels A, B, C) |
-| `Figure6_pathogenicity.pdf` | Pathogenicity bioassays (panels A–D) |
-| `FigureS1_GO_enrichment.pdf` | GO enrichment across strains (top 3 terms per strain) |
-| `FigureS2_KEGG_heatmap.pdf` | KEGG pathway heatmap (supplementary) |
+| `Figure4_AMR_antibiograms.svg` | Antibiograms and AMR heatmap (panels A and B) |
+| `Figure5_genome_metrics_BGC.svg` | Genome size, quality metrics, and BGC heatmap (panels A, B, C) |
+| `Figure6_pathogenicity.svg` | Pathogenicity bioassays (panels A–D) |
+| `FigureS1_GO_enrichment.svg` | GO enrichment across strains (top 3 terms per strain) |
+| `FigureS2_KEGG_heatmap.svg` | KEGG pathway heatmap (supplementary) |
 
 ## Supplementary tables
 

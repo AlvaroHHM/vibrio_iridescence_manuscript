@@ -1,12 +1,11 @@
 #!/usr/bin/env Rscript
 # ============================================================
-# figure_panel_ABC_final_v3.R
+# 07_figure5_panels_ABC.R
 # Panel A: Genome size
 # Panel B: Genome quality metrics
-# Panel C: Heatmap BGC types (expandido, sin números)
+# Panel C: Heatmap BGC types
 # ============================================================
 
-library(readr)
 suppressPackageStartupMessages({
   library(ggplot2)
   library(dplyr)
@@ -15,14 +14,13 @@ suppressPackageStartupMessages({
   library(ggsci)
   library(cowplot)
   library(pheatmap)
-  library(png)
   library(RColorBrewer)
-  library(grid)
-  library(svglite)
+  library(ggplotify)
+  library(readr)
 })
 
 # ------------------------------------------------------------
-# 1. Datos genómicos
+# 1. Genome data
 # ------------------------------------------------------------
 genomes <- read_csv("../data/genome_metrics.csv", show_col_types = FALSE)
 
@@ -33,12 +31,13 @@ strain_order <- genomes %>%
 genomes$Code <- factor(genomes$Code, levels = strain_order)
 
 # ------------------------------------------------------------
-# 2. Cargar datos de BGC y preparar matriz
+# 2. BGC data
 # ------------------------------------------------------------
 bgc <- read.csv("../data/bgc_types_summary.csv", stringsAsFactors = FALSE)
 
+bgc <- bgc %>%
+  mutate(Strain = recode(Strain, "4_SR" = "AT_BV"))
 
-# CSA25-control was not genome-sequenced; excluded from genomic analyses
 bgc <- bgc %>% filter(Strain != "CSA25-control")
 
 bgc_long <- bgc %>%
@@ -61,7 +60,9 @@ bgc_wide <- bgc_summary %>%
 strain_order <- intersect(strain_order, colnames(bgc_wide))
 bgc_wide <- bgc_wide[, strain_order, drop = FALSE]
 
-# Colores por cepa
+# ------------------------------------------------------------
+# Panel A: Genome size
+# ------------------------------------------------------------
 strain_colors_aaas <- c(
   "1_MXM"      = "#3B4992",
   "3_MXM"      = "#008280",
@@ -75,9 +76,6 @@ strain_colors_aaas <- c(
   "10_VM"      = "#1B1919"
 )
 
-# ------------------------------------------------------------
-# Panel A: Genome size
-# ------------------------------------------------------------
 pA <- ggplot(genomes, aes(x = Code, y = Genome_size/1e6, fill = Code)) +
   geom_col(width = 0.7, color = "white", linewidth = 0.3, alpha = 0.7) +
   coord_flip() +
@@ -106,8 +104,7 @@ blue_palette <- c("GC (%)"             = "gray",
 
 pB <- ggplot(metrics_long, aes(x = Code, y = Value, fill = Metric)) +
   geom_col(position = position_dodge2(width = 0.9, padding = 0.1),
-           width = 0.7,
-           color = "white", linewidth = 0.3) +
+           width = 0.7, color = "white", linewidth = 0.3) +
   scale_fill_manual(values = blue_palette) +
   labs(x = NULL, y = "Percentage (%)") +
   theme_cowplot(font_size = 12) +
@@ -117,8 +114,8 @@ pB <- ggplot(metrics_long, aes(x = Code, y = Value, fill = Metric)) +
     axis.title.y = element_text(size = 14),
     legend.position = "top",
     legend.title = element_blank(),
-    legend.text = element_text(size = 12),      # 👈 letras de la leyenda más grandes
-    legend.key.size = unit(0.5, "cm")           # opcional: cuadros de color más grandes
+    legend.text = element_text(size = 12),
+    legend.key.size = unit(0.5, "cm")
   ) +
   scale_y_continuous(limits = c(0, 110), breaks = seq(0, 100, by = 20),
                      expand = expansion(mult = c(0, 0.05))) +
@@ -126,43 +123,34 @@ pB <- ggplot(metrics_long, aes(x = Code, y = Value, fill = Metric)) +
   guides(fill = guide_legend(nrow = 1))
 
 # ------------------------------------------------------------
-# Panel C: Heatmap estilo plot_bgc_final.R (sin números, bordes blancos)
+# Panel C: BGC heatmap converted to ggplot
 # ------------------------------------------------------------
-my_palette_bgc <- colorRampPalette(c("white", "#67001f"))(100)
-
-pheatmap(
-  bgc_wide,
-  color = my_palette_bgc,
-  cluster_rows = TRUE,
-  cluster_cols = TRUE,
-  display_numbers = FALSE,
-  border_color = "white",
-  main = "",
-  fontsize_row = 14,
-  fontsize_col = 14,
-  angle_col = 45,
-  cellwidth = 30,
-  cellheight = 20,
-  legend = TRUE,
-  filename = "heatmap_bgc_panel.png",
-  width = 8,
-  height = 8,
-  dpi = 300,
-  silent = TRUE
-)
-
-heatmap_img <- png::readPNG("heatmap_bgc_panel.png")
-pC <- cowplot::ggdraw() + cowplot::draw_image(heatmap_img)
+pC <- ggplotify::as.ggplot(function() {
+  pheatmap(bgc_wide,
+           color = colorRampPalette(c("white", "#67001f"))(100),
+           cluster_rows = TRUE,
+           cluster_cols = TRUE,
+           display_numbers = FALSE,
+           border_color = "white",
+           main = "",
+           fontsize_row = 14,
+           fontsize_col = 14,
+           angle_col = 45,
+           cellwidth = 30,
+           cellheight = 20,
+           legend = TRUE,
+           silent = FALSE)
+})
 
 # ------------------------------------------------------------
-# Combinar paneles
+# Combine panels
 # ------------------------------------------------------------
 top_row <- plot_grid(pA, pB, labels = c("A", "B"), ncol = 2,
                      rel_widths = c(1, 1.3), align = "h", axis = "tb",
                      label_size = 20)
 
 pC_label <- ggdraw() +
-  draw_plot(pC, x = 0, y = 0, width = 0.6, height = 1) +   # heatmap ocupa todo el ancho
+  draw_plot(pC, x = 0, y = 0, width = 0.6, height = 1) +
   draw_plot_label(label = "C", x = 0.02, y = 0.95, size = 20, fontface = "bold")
 
 panel_final <- ggdraw() +
@@ -170,9 +158,9 @@ panel_final <- ggdraw() +
   draw_plot(pC_label, x = 0, y = 0, width = 1, height = 0.5)
 
 # ------------------------------------------------------------
-# Guardar
+# Save as SVG with white background
 # ------------------------------------------------------------
-ggsave("figure_panel_ABC_final_v3.pdf", panel_final,
-       width = 14, height = 13)
+ggsave("figure_panel_ABC_final_v3.svg", plot = panel_final,
+       width = 14, height = 13, units = "in", bg = "white")
 
-cat("✅ Panel final v3 guardado en PNG, PDF y SVG\n")
+message("✅ figure_panel_ABC_final_v3.svg generated")

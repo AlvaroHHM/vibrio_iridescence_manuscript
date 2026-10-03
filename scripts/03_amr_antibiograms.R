@@ -170,8 +170,8 @@ panel_final <- plot_grid(
 )
 
 # Guardar con dimensiones generosas
-ggsave("panel_amr_antibiogramas_invertido.pdf", panel_final,
-       width = 20, height = 14)
+ggsave("panel_amr_antibiogramas_invertido.svg", panel_final,
+       width = 20, height = 14, bg = "white")
        
 # SVG (requiere svglite)
 

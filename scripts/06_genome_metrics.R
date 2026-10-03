@@ -42,7 +42,7 @@ p1 <- ggplot(genomes, aes(x = Code, y = Genome_size/1e6,
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)))
 
 # Guardar
-ggsave("genome_size_horizontal.pdf", p1, width = 8, height = 5)
+ggsave("genome_size_horizontal.svg", p1, width = 8, height = 5, bg = "white")
 
 # ------------------------------------------------------------
 # Gráfico 2: Barras verticales – GC, Completeness, Coding density
@@ -75,7 +75,7 @@ p2 <- ggplot(metrics_long, aes(x = Code, y = Value, fill = Metric)) +
   guides(fill = guide_legend(nrow = 1))
 
 # Guardar
-ggsave("genome_metrics_vertical.pdf", p2, width = 10, height = 5.5)
+ggsave("genome_metrics_vertical.svg", p2, width = 10, height = 5.5, bg = "white")
 
 cat("✅ Gráficos generados:\n")
 cat("  - genome_size_horizontal.png/pdf\n")
