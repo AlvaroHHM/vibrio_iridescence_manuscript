@@ -73,14 +73,16 @@ Rscript scripts/05_kegg_enrichment.R
 Rscript scripts/06_genome_metrics.R
 Rscript scripts/07_figure4_panels_ABC.R
 Rscript scripts/08_go_enrichment_figure.R
+```
 
 ## Data and code availability
 
-Assembled and annotated genomes have been deposited in NCBI GenBank under BioProjects PRJNA1497354, PRJNA1502407, PRJNA1499907, PRJNA1499920, PRJNA1499939, PRJNA1502400, PRJNA1502472, PRJNA1502475, PRJNA1502480, and PRJNA1502481. Individual BioSample, WGS, and Assembly accession numbers—distinguishing the seven publicly released genomes from the three entries currently in final NCBI processing (AT_BV, 9_VM, and 10_VM)—are fully detailed in Table 1 and Table S1. All analytical R scripts, command-line execution parameters, raw bioassay datasets, GraphPad Prism files (.pzfx), antiSMASH output files, BLAST alignment matrices, metadata, colony image datasets, and supplementary files are publicly maintained in GitHub (AlvaroHHM/vibrio_iridescence_manuscript) and permanently archived in Zenodo at DOI: 10.5281/zenodo.23005623
+Assembled and annotated genomes have been deposited in NCBI GenBank under BioProjects PRJNA1497354, PRJNA1502407, PRJNA1499907, PRJNA1499920, PRJNA1499939, PRJNA1502400, PRJNA1502472, PRJNA1502475, PRJNA1502480, and PRJNA1502481. Individual BioSample, WGS, and Assembly accession numbers—distinguishing the seven publicly released genomes from the three entries currently in final NCBI processing (AT_BV, 9_VM, and 10_VM)—are fully detailed in Table 1 and Table S1. All analytical R scripts, command-line execution parameters, raw bioassay datasets, GraphPad Prism files (.pzfx), antiSMASH output files, BLAST alignment matrices, metadata, colony image datasets, and supplementary files are publicly maintained in GitHub (AlvaroHHM/vibrio_iridescence_manuscript) and permanently archived in Zenodo at DOI: 10.5281/zenodo.23005623.
 
 ## License
 
-MIT License. See LICENSE for details.
+MIT License. See `LICENSE` for details.
 
 Copyright (c) 2026 Universidad Autónoma de Baja California (UABC).
+
 Authors: Fernando G. Mata-Torres, Ivone Giffard-Mena, Natalie Millán-Aguiñaga, Álvaro H. Hernández-Montiel, Mónica Torres-Beltrán, Israel Rocha-Mendoza, and contributors.
