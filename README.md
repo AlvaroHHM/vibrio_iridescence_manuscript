@@ -2,38 +2,38 @@
 
 This repository contains the R scripts and intermediate data used to generate the figures and supplementary tables of the manuscript:
 
-**Phenotypic and Exploratory Genomic Characterization of Metallic Iridescence in Aquaculture-Associated Vibrio Isolates**
+**Exploratory phenotypic and comparative genomic analysis of angle-dependent metallic coloration in aquaculture-associated Vibrio isolates**
 
-Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., Rocha-Mendoza, I., Hernández-Montiel, A. H., & Giffard-Mena, I.
+Mata-Torres, F. G., Giffard-Mena, I., Ugalde, J. A., Millán-Aguiñaga, N., Hernández-Montiel, A. H., Torres-Beltrán, M., & Rocha-Mendoza, I.
 
 ## Requirements
 
 - R >= 4.3.3
-- Packages: readr, dplyr, tidyr, ggplot2, survival, multcompView, cowplot, rstatix, pheatmap, MASS, boot, pzfx, ggsci, seqinr
+- Packages: readr, dplyr, tidyr, ggplot2, survival, multcompView, cowplot, rstatix, pheatmap, MASS, boot, pzfx, ggsci, seqinr, ggplotify
 
 ## Repository structure
 
-- scripts/ — R scripts
-- data/ — Intermediate CSV files
-  - processed/ — Processed data
-  - raw/ — Raw data (empty; raw reads in SRA)
-- figures/ — Generated figures (PDF)
-- supplementary_tables/ — Final supplementary tables
-- docs/ — commands.sh, versions_databases.txt, data_dictionary.md
-- LICENSE
-- README.md
+- `scripts/` — R scripts
+- `data/` — Intermediate CSV files
+  - `processed/` — Processed data
+  - `raw/` — Raw data (empty; raw reads in SRA)
+- `figures/` — Generated figures (SVG)
+- `supplementary_tables/` — Final supplementary tables
+- `docs/` — commands.sh, versions_databases.txt, data_dictionary.md
+- `LICENSE`
+- `README.md`
 
 ## Scripts
 
 | Script | Description | Figure/Table |
 |--------|-------------|--------------|
-| `01_probit_lc50_analysis.R` | Estimates LC50 and 95% CI by Probit with bootstrap | Figure 6A |
-| `02_figure6_pathogenicity.R` | Generates Figure 6 (panels A–D) | Figure 6 |
-| `03_amr_antibiograms.R` | Generates antibiograms and AMR heatmap | Figure 4A, 4B |
+| `01_probit_lc50_analysis.R` | Estimates LC50 and 95% CI by Probit with bootstrap | Figure 5 |
+| `02_figure5_pathogenicity.R` | Generates Figure 5 (panels A–D) | Figure 5 |
+| `03_amr_antibiograms.R` | Generates antibiograms and AMR heatmap | Figure 3A, 3B |
 | `04_kegg_heatmap.R` | Generates KEGG pathway heatmap | Figure S2 |
-| `05_kegg_enrichment.R` | KEGG enrichment analysis | Supplementary tables |
-| `06_genome_metrics.R` | Generates genome size and quality plots | Figure 5A, 5B |
-| `07_figure5_panels_ABC.R` | Generates Figure 5 (panels A, B, C) | Figure 5 |
+| `05_kegg_enrichment.R` | KEGG enrichment analysis | Intermediate data |
+| `06_genome_metrics.R` | Generates genome size and quality plots | Figure 4A, 4B |
+| `07_figure4_panels_ABC.R` | Generates Figure 4 (panels A, B, C) | Figure 4 |
 | `08_go_enrichment_figure.R` | Generates GO enrichment heatmap across strains | Figure S1 |
 
 ## Figures
@@ -43,7 +43,7 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 | `Figure3_AMR_antibiograms.svg` | Antibiograms and AMR heatmap (panels A and B) |
 | `Figure4_genome_metrics_BGC.svg` | Genome size, quality metrics, and BGC heatmap (panels A, B, C) |
 | `Figure5_pathogenicity.svg` | Pathogenicity bioassays (panels A–D) |
-| `FigureS1_GO_enrichment.svg` | GO enrichment across strains (top 3 terms per strain) |
+| `FigureS1_GO_enrichment.svg` | GO enrichment across strains |
 | `FigureS2_KEGG_heatmap.svg` | KEGG pathway heatmap (supplementary) |
 
 ## Supplementary tables
@@ -51,16 +51,12 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 | File | Description |
 |------|-------------|
 | `Table_S1_sequencing_stats.csv` | Sequencing and assembly statistics |
-| `Table_S2_biolog_geniii.csv` | Biolog Gen III biochemical identification |
-| `Table_S3_chitinase_adhesin_pilus.csv` | Chitinase, adhesin, and pilus assembly genes |
-| `Table_S4_genome_metrics.csv` | Genome size, GC, completeness, contamination |
-| `Table_S5_blast_reciprocal_pairs.csv` | BLASTp reciprocal pairs |
-| `Table_S6_AMR.csv` | AMR determinants |
-| `Table_S7_PathogenFinder.csv` | PathogenFinder predictions |
-| `Table_S8_PathogenFinder_annotated.csv` | PathogenFinder annotated families |
-| `Table_S9_KEGG_pathway_counts.csv` | KEGG pathway counts |
-| `Table_S10_GO_enrichment.csv` | GO enrichment |
-| `Table_S11_eggNOG_annotations.tsv` | eggNOG annotations |
+| `Table_S2_chitinase_adhesin_pilus.csv` | Chitinase, adhesin, and pilus assembly genes |
+| `Table_S3_genome_metrics.csv` | Genome size, GC, completeness, contamination |
+| `Table_S4_blast_reciprocal_pairs.csv` | BLASTp reciprocal pairs |
+| `Table_S5_PathogenFinder.csv` | PathogenFinder predictions |
+| `Table_S5_PathogenFinder_annotated.csv` | PathogenFinder annotated families |
+| `Table_S6_presence_absence_candidates.csv` | Presence/absence of arylsulfatase and MFS permease |
 
 ## How to run
 
@@ -68,14 +64,15 @@ Mata-Torres, F. G., Millán-Aguiñaga, N., Ugalde, J. A., Torres-Beltrán, M., R
 2. Open R in the repository root.
 3. Run scripts in order (01 → 08):
 
-- Rscript scripts/01_probit_lc50_analysis.R
-- Rscript scripts/02_figure6_pathogenicity.R
-- Rscript scripts/03_amr_antibiograms.R
-- Rscript scripts/04_kegg_heatmap.R
-- Rscript scripts/05_kegg_enrichment.R
-- Rscript scripts/06_genome_metrics.R
-- Rscript scripts/07_figure5_panels_ABC.R
-- Rscript scripts/08_go_enrichment_figure.R
+```bash
+Rscript scripts/01_probit_lc50_analysis.R
+Rscript scripts/02_figure5_pathogenicity.R
+Rscript scripts/03_amr_antibiograms.R
+Rscript scripts/04_kegg_heatmap.R
+Rscript scripts/05_kegg_enrichment.R
+Rscript scripts/06_genome_metrics.R
+Rscript scripts/07_figure4_panels_ABC.R
+Rscript scripts/08_go_enrichment_figure.R
 
 ## Data and code availability
 
