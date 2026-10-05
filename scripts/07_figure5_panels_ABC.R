@@ -160,7 +160,7 @@ panel_final <- ggdraw() +
 # ------------------------------------------------------------
 # Save as SVG with white background
 # ------------------------------------------------------------
-ggsave("figure_panel_ABC_final_v3.svg", plot = panel_final,
+ggsave("Figure4_genome_metrics_BGC.svg", plot = panel_final,
        width = 14, height = 13, units = "in", bg = "white")
 
-message("✅ figure_panel_ABC_final_v3.svg generated")
+message("✅ Figure4_genome_metrics_BGC.svg generated")
