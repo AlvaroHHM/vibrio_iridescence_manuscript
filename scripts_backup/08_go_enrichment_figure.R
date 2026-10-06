@@ -68,5 +68,5 @@ p <- ggplot(top_per_strain, aes(x = GO, y = logp, fill = logp)) +
 # ------------------------------------------------------------
 # 4. Save
 # ------------------------------------------------------------
-ggsave("FigureS1_GO_enrichment.pdf", p, width = 10, height = 8, bg = "white")
+ggsave("FigureS1_GO_enrichment.svg", p, width = 10, height = 8, bg = "white")
 message("✅ FigureS1_GO_enrichment.pdf generated with wine-red palette")

@@ -82,7 +82,7 @@ p <- ggplotify::as.ggplot(function() {
 # ------------------------------------------------------------
 # 5. Save as SVG with white background
 # ------------------------------------------------------------
-ggsave("FigureS2_KEGG_heatmap.pdf", plot = p,
+ggsave("FigureS2_KEGG_heatmap.svg", plot = p,
        width = 10, height = 7, units = "in", bg = "white")
 
-message("✅ FigureS2_KEGG_heatmap.pdf generated")
+message("✅ FigureS2_KEGG_heatmap.svg generated")
