@@ -22,3 +22,5 @@ update_to_svg.sh
 scripts_backup/
 scripts_backup/
 analysis/
+actualizar_figuras.sh
+restore_pdfs_and_push.sh
