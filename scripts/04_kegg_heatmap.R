@@ -70,7 +70,7 @@ p <- ggplotify::as.ggplot(function() {
            annotation_row = annotation_row,
            annotation_colors = ann_colors,
            labels_row = short_labels,
-           main = "KEGG pathways relevant to pathogenic proteins",
+           #main = "KEGG pathways relevant to pathogenic proteins",
            fontsize_row = 8,
            fontsize_col = 8,
            angle_col = 45,

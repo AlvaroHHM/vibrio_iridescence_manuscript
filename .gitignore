@@ -19,3 +19,6 @@ move_svgs.sh
 run_all_and_push.R
 update_to_svg.sh
 *.bak
+scripts_backup/
+scripts_backup/
+analysis/

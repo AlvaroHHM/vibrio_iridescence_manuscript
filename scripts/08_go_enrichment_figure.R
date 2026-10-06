@@ -51,9 +51,9 @@ p <- ggplot(top_per_strain, aes(x = GO, y = logp, fill = logp)) +
   scale_fill_gradient(low = "#fcae91", high = "#67001f") +
   labs(
     x = NULL,
-    y = expression(-log[10](p[unadjusted])),
-    title = "Top 3 GO terms per strain",
-    subtitle = "None of the terms survived FDR correction (p_adj = 1.0)"
+    y = expression(-log[10](p[unadjusted]))#,
+   # title = "Top 3 GO terms per strain",
+   # subtitle = "None of the terms survived FDR correction (p_adj = 1.0)"
   ) +
   theme_cowplot(font_size = 11) +
   theme(
