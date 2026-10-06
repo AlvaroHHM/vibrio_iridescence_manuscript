@@ -13,11 +13,11 @@ Mata-Torres, F. G., Giffard-Mena, I., Ugalde, J. A., Millán-Aguiñaga, N., Hern
 
 ## Repository structure
 
-- `scripts/` — R scripts
+- `scripts/` — R scripts (5 scripts that generate the manuscript figures)
 - `data/` — Intermediate CSV files
   - `processed/` — Processed data
   - `raw/` — Raw data (empty; raw reads in SRA)
-- `figures/` — Generated figures (SVG)
+- `figures/` — Generated figures (PDF)
 - `supplementary_tables/` — Final supplementary tables
 - `docs/` — commands.sh, versions_databases.txt, data_dictionary.md
 - `LICENSE`
@@ -25,14 +25,11 @@ Mata-Torres, F. G., Giffard-Mena, I., Ugalde, J. A., Millán-Aguiñaga, N., Hern
 
 ## Scripts
 
-| Script | Description | Figure/Table |
-|--------|-------------|--------------|
-| `01_probit_lc50_analysis.R` | Estimates LC50 and 95% CI by Probit with bootstrap | Figure 5 |
+| Script | Description | Figure |
+|--------|-------------|--------|
 | `02_figure5_pathogenicity.R` | Generates Figure 5 (panels A–D) | Figure 5 |
-| `03_amr_antibiograms.R` | Generates antibiograms and AMR heatmap | Figure 3A, 3B |
+| `03_amr_antibiograms.R` | Generates antibiograms and AMR heatmap | Figure 3 |
 | `04_kegg_heatmap.R` | Generates KEGG pathway heatmap | Figure S2 |
-| `05_kegg_enrichment.R` | KEGG enrichment analysis | Intermediate data |
-| `06_genome_metrics.R` | Generates genome size and quality plots | Figure 4A, 4B |
 | `07_figure4_panels_ABC.R` | Generates Figure 4 (panels A, B, C) | Figure 4 |
 | `08_go_enrichment_figure.R` | Generates GO enrichment heatmap across strains | Figure S1 |
 
@@ -62,15 +59,12 @@ Mata-Torres, F. G., Giffard-Mena, I., Ugalde, J. A., Millán-Aguiñaga, N., Hern
 
 1. Clone the repository.
 2. Open R in the repository root.
-3. Run scripts in order (01 → 08):
+3. Run the figure-generating scripts:
 
 ```bash
-Rscript scripts/01_probit_lc50_analysis.R
 Rscript scripts/02_figure5_pathogenicity.R
 Rscript scripts/03_amr_antibiograms.R
 Rscript scripts/04_kegg_heatmap.R
-Rscript scripts/05_kegg_enrichment.R
-Rscript scripts/06_genome_metrics.R
 Rscript scripts/07_figure4_panels_ABC.R
 Rscript scripts/08_go_enrichment_figure.R
 ```
