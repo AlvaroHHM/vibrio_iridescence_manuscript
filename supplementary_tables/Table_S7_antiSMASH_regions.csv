@@ -1,0 +1,75 @@
+Isolate,Contig,Region,Start,End,Protocluster_type,MiBIG_accession,MiBIG_match
+1_MXM,contig_1,1,218851,229718,RiPP-like,NA,NA
+1_MXM,contig_3,1,209692,238418,betalactone,NA,NA
+1_MXM,contig_5,1,151387,161774,ectoine,BGC0000857.3; BGC0000854.3; BGC0000856.3; BGC0000859.3; BGC0000855.3; BGC0000852.5; BGC0000860.3; BGC0002052.3; BGC0000858.3; BGC0000853.3,ectoine
+1_MXM,contig_11,1,136706,207715,arylpolyene; NRP-metallophore; NRPS,BGC0001890.3; BGC0000837.4; BGC0000836.5; BGC0002008.3; BGC0000460.5; BGC0000454.5; BGC0001185.5; BGC0002494.3; BGC0002695.2; BGC0000309.5; BGC0002324.3; BGC0002413.3; BGC0001502.4; BGC0000368.5; BGC0002679.2; BGC0002414.3; BGC0000343.5; BGC0000451.5; BGC0002491.3; BGC0002495.2; BGC0002696.2; BGC0000371.5; BGC0002476.2; BGC0002474.2; BGC0002688.2; BGC0000294.5; BGC0002017.3,Amphi-enterobactin 1/amphi-enterobactin 2/amphi-enterobactin 3/amphi-enterobactin 4; APE Vf; APE Ec; aryl polyenes; vulnibactin; vanchrobactin; bacillibactin; vibriobactin; bacillibactin/bacillibactin E/bacillibactin F; myxochelin B/myxochelin N/myxochelin O/myxochelin P/myxochelin Q/myxochelin A; frederiksenibactin; amonabactin P 750; griseobactin; chromobactin; trichrysobactin/cyclic trichrysobactin/chrysobactin/dichrysobactin; enterobactin; turnerbactin; myxochelin B/myxochelin A/pseudochelin A; photobactin; heterobactin B/heterobactin S2; heterobactin A/heterobactin S2; agrobactin; benarthin/dibenarthin; acinetobactin; potensibactin
+1_MXM,contig_13,1,128486,149371,terpene-precursor,NA,NA
+1_MXM,contig_25,1,15638,26511,RiPP-like,NA,NA
+10_VM,contig_1,1,288187,309078,terpene-precursor,BGC0001595.3,fischerindole
+10_VM,contig_2,1,282334,305841,azole-containing-RiPP,NA,NA
+10_VM,contig_5,1,151574,183282,NI-siderophore,BGC0000942.4,petrobactin
+10_VM,contig_6,1,50792,61059,RiPP-like,NA,NA
+10_VM,contig_6,2,116285,126606,RiPP-like,NA,NA
+10_VM,contig_6,3,177672,202911,betalactone,BGC0001095.5; BGC0001103.5; BGC0002284.3; BGC0000407.5,fengycin; mycosubtilin; corynecin III/corynecin I/corynecin II; plipastatin
+10_VM,contig_6,4,205867,271776,NRPS,NA,NA
+10_VM,contig_8,1,94431,138013,NRPS-like,NA,NA
+10_VM,contig_15,1,94182,116036,terpene,BGC0000916.5,molybdenum cofactor
+10_VM,contig_80,1,0,13203,cyclic-lactone-autoinducer,NA,NA
+10_VM,contig_210,1,0,7890,NI-siderophore,BGC0000944.5,staphyloferrin A
+10_VM,contig_313,1,0,6377,terpene,NA,NA
+10_VM,contig_460,1,0,5099,opine-like-metallophore,BGC0002487.3,staphylopine
+10_VM,contig_485,1,0,4979,RRE-containing,NA,NA
+10_VM,contig_694,1,0,4112,NRPS-like,NA,NA
+10_VM,contig_753,1,0,3888,opine-like-metallophore,BGC0002487.3,staphylopine
+11_VM,contig_1,1,606387,639233,NI-siderophore,BGC0000947.5; BGC0000946.5; BGC0002527.2; BGC0001408.5,vibrioferrin; xanthoferrin
+11_VM,contig_3,1,133603,177190,arylpolyene,BGC0000837.4; BGC0000836.5; BGC0001890.3; BGC0002008.3,APE Vf; APE Ec; Amphi-enterobactin 1/amphi-enterobactin 2/amphi-enterobactin 3/amphi-enterobactin 4; aryl polyenes
+11_VM,contig_6,1,83010,111330,betalactone,NA,NA
+11_VM,contig_8,1,41207,62092,terpene-precursor,NA,NA
+11_VM,contig_11,1,86044,96431,ectoine,BGC0000856.3; BGC0000857.3; BGC0000859.3; BGC0000854.3; BGC0000860.3; BGC0000855.3; BGC0000852.5; BGC0002052.3; BGC0000853.3; BGC0000858.3,ectoine
+11_VM,contig_26,1,15521,26388,RiPP-like,NA,NA
+13_VM,contig_1,1,45289,70567,terpene,BGC0000644.3; BGC0000637.3; BGC0000636.3,carotenoid
+13_VM,contig_2,1,79160,100225,terpene-precursor,NA,NA
+13_VM,contig_4,1,96955,127059,azole-containing-RiPP,NA,NA
+13_VM,contig_6,1,40712,53691,hydrogen-cyanide,NA,NA
+13_VM,contig_7,1,104025,124358,RRE-containing,BGC0001894.2,heteropolysaccharide (HePS)
+13_VM,contig_12,1,20749,55984,betalactone; terpene-precursor,BGC0001666.3,microansamycin A/microansamycin B/microansamycin C/microansamycin D/microansamycin E/microansamycin F/microansamycin G/microansamycin H/microansamycin I
+13_VM,contig_21,1,2024,36044,NAPAA,BGC0000431.5; BGC0001752.4; BGC0002174.2,stenothricin; qinichelins; ε-Poly-L-lysine
+13_VM,contig_23,1,9463,19835,ectoine,NA,NA
+15_CESAIBC,contig_2,1,487618,531205,arylpolyene,BGC0000837.4; BGC0001890.3; BGC0000836.5; BGC0002008.3,APE Vf; Amphi-enterobactin 1/amphi-enterobactin 2/amphi-enterobactin 3/amphi-enterobactin 4; APE Ec; aryl polyenes
+15_CESAIBC,contig_4,1,199081,227402,betalactone,NA,NA
+15_CESAIBC,contig_6,1,61648,72035,ectoine,BGC0000854.3; BGC0000856.3; BGC0000857.3; BGC0000859.3; BGC0000860.3; BGC0000855.3; BGC0000852.5; BGC0002052.3; BGC0000853.3; BGC0000858.3,ectoine
+15_CESAIBC,contig_7,1,151603,184449,NI-siderophore,BGC0000947.5; BGC0000946.5; BGC0002527.2; BGC0001408.5,vibrioferrin; xanthoferrin
+15_CESAIBC,contig_9,1,117271,138156,terpene-precursor,NA,NA
+15_CESAIBC,contig_24,1,8847,19714,RiPP-like,NA,NA
+3_MXM,contig_1,1,313832,324126,RiPP-like,NA,NA
+3_MXM,contig_2,1,346185,367064,terpene-precursor,NA,NA
+3_MXM,contig_3,1,42697,114045,NRP-metallophore; NRPS; terpene,BGC0000347.5,equibactin
+3_MXM,contig_3,2,155777,209577,NI-siderophore; T3PKS,NA,NA
+3_MXM,contig_7,1,73677,94390,cyclic-lactone-autoinducer,NA,NA
+3_MXM,contig_11,1,0,12920,terpene,NA,NA
+3_MXM,contig_12,1,0,14447,lanthipeptide-class-iv,BGC0000539.5; BGC0000607.5,nukacin ISK-1; micrococcin P1
+AT_BV,contig_5,1,0,48209,NRP-metallophore; NRPS,BGC0000454.5; BGC0002415.2; BGC0000460.5; BGC0002494.3; BGC0001890.3; BGC0002414.3; BGC0002413.3; BGC0002476.2; BGC0002688.2; BGC0002680.2; BGC0002495.2; BGC0002695.2; BGC0000300.5; BGC0000392.5; BGC0001185.5; BGC0000309.5; BGC0002491.3; BGC0002696.2; BGC0000368.5; BGC0000371.5; BGC0002473.3; BGC0002017.3; BGC0000451.5; BGC0002466.3; BGC0000423.5,vanchrobactin; vanchrobactin/trivanchrobactin/divanchrobactin; vulnibactin; vibriobactin; Amphi-enterobactin 1/amphi-enterobactin 2/amphi-enterobactin 3/amphi-enterobactin 4; trichrysobactin/cyclic trichrysobactin/chrysobactin/dichrysobactin; frederiksenibactin; enterobactin; benarthin/dibenarthin; viobactin; photobactin; bacillibactin/bacillibactin E/bacillibactin F; amychelin; mirubactin; bacillibactin; myxochelin B/myxochelin A/pseudochelin A; heterobactin B/heterobactin S2; griseobactin; heterobactin A/heterobactin S2; propanochelin/butanochelin/pentanochelin; potensibactin; turnerbactin; peucechelin; scabichelin
+AT_BV,contig_7,1,0,9970,ectoine,BGC0000855.3; BGC0000857.3; BGC0000856.3; BGC0000854.3; BGC0000859.3; BGC0000852.5; BGC0000860.3; BGC0002052.3; BGC0000853.3; BGC0000858.3,ectoine
+AT_BV,contig_147,1,0,7738,terpene-precursor,NA,NA
+AT_BV,contig_300,1,0,5006,cyclic-lactone-autoinducer,NA,NA
+AT_BV,contig_451,1,0,3949,terpene-precursor,NA,NA
+AT_BV,contig_736,1,0,2802,RiPP-like,NA,NA
+AT_BV,contig_797,1,0,2615,RRE-containing,NA,NA
+6_VM,contig_1,1,214232,247078,NI-siderophore,BGC0000947.5; BGC0000946.5; BGC0002527.2; BGC0001408.5,vibrioferrin; xanthoferrin
+6_VM,contig_3,1,176968,220555,arylpolyene,BGC0000837.4; BGC0000836.5; BGC0001890.3; BGC0002008.3,APE Vf; APE Ec; Amphi-enterobactin 1/amphi-enterobactin 2/amphi-enterobactin 3/amphi-enterobactin 4; aryl polyenes
+6_VM,contig_6,1,199833,228153,betalactone,NA,NA
+6_VM,contig_8,1,41713,62598,terpene-precursor,NA,NA
+6_VM,contig_11,1,86044,96431,ectoine,BGC0000856.3; BGC0000857.3; BGC0000859.3; BGC0000854.3; BGC0000860.3; BGC0000855.3; BGC0000852.5; BGC0002052.3; BGC0000853.3; BGC0000858.3,ectoine
+6_VM,contig_27,1,15521,26388,RiPP-like,NA,NA
+8_VM,contig_2,1,19719,30568,RiPP-like,NA,NA
+8_VM,contig_2,2,284938,333439,NRP-metallophore; NRPS,BGC0002679.2; BGC0002414.3; BGC0002413.3; BGC0002476.2; BGC0002474.2; BGC0002495.2; BGC0000451.5; BGC0000309.5; BGC0000392.5; BGC0002493.3; BGC0001890.3; BGC0001502.4; BGC0002528.3; BGC0002491.3; BGC0002492.3; BGC0002324.3; BGC0001185.5; BGC0000359.5; BGC0002689.2; BGC0000368.5; BGC0000352.5; BGC0001850.4; BGC0001848.4; BGC0001783.5; BGC0000032.5; BGC0001652.5; BGC0001213.5; BGC0001675.5; BGC0000460.5; BGC0001345.5; BGC0000401.5; BGC0002695.2; BGC0000371.5; BGC0000343.5; BGC0000294.5; BGC0002688.2; BGC0002017.3; BGC0000454.5; BGC0001868.4,"chromobactin; trichrysobactin/cyclic trichrysobactin/chrysobactin/dichrysobactin; frederiksenibactin; enterobactin; agrobactin; photobactin; turnerbactin; bacillibactin; mirubactin; parabactin; Amphi-enterobactin 1/amphi-enterobactin 2/amphi-enterobactin 3/amphi-enterobactin 4; amonabactin P 750; aminochelin/azotochelin/protochelin; myxochelin B/myxochelin A/pseudochelin A; myxochelin B/myxochelin A; myxochelin B/myxochelin N/myxochelin O/myxochelin P/myxochelin Q/myxochelin A; Fuscachelin A/Fuscachelin B/Fuscachelin C; 2,3-dihydroxybenzoylserine; griseobactin; fimsbactin A; diazaquinomycin A/diazaquinomycin E/diazaquinomycin F/diazaquinomycin G; diazaquinomycin H/diazaquinomycin J; streptonigrin; A23187; limazepine C/limazepine D/limazepine E/limazepine F/limazepine A; nataxazole; murayaquinone; vulnibactin; myxochelin A/myxochelin B; paenibactin; bacillibactin/bacillibactin E/bacillibactin F; heterobactin A/heterobactin S2; acinetobactin; benarthin/dibenarthin; potensibactin; vanchrobactin; iodinin"
+8_VM,contig_5,1,238886,273785,arylpolyene,BGC0000836.5; BGC0000837.4; BGC0002008.3,APE Ec; APE Vf; aryl polyenes
+8_VM,contig_8,1,156938,177829,terpene-precursor,NA,NA
+8_VM,contig_9,1,35817,56468,hserlactone,NA,NA
+8_VM,contig_10,1,23139,34900,RiPP-like,NA,NA
+9_VM,contig_1,1,296357,317239,terpene-precursor,BGC0000895.5,citrulline
+9_VM,contig_2,1,800,33791,NI-siderophore,BGC0000944.5,staphyloferrin A
+9_VM,contig_2,2,343823,388247,T3PKS; terpene,NA,NA
+9_VM,contig_2,3,613737,635835,opine-like-metallophore,BGC0002487.3; BGC0002488.3,staphylopine; bacillopaline
+9_VM,contig_3,1,18062,38771,cyclic-lactone-autoinducer,BGC0001687.3,N-tetradecanoyl tyrosine
+9_VM,contig_5,1,51034,71916,terpene,NA,NA
